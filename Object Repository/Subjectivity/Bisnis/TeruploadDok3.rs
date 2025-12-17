@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TeruploadDok3</name>
+   <tag></tag>
+   <elementGuidId>5353cb38-4c5f-46c3-81a1-acc9ee5ae4fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[4]/div/table/tbody/tr[3]/td[5]/div/figure/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[4]/div/table/tbody/tr[3]/td[5]/div/figure/img</value>
+      <webElementGuid>61beb0b0-3349-4c12-9377-251d9af2fa0b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

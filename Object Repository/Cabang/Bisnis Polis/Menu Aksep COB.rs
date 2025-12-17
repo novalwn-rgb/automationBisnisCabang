@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu Aksep COB</name>
+   <tag></tag>
+   <elementGuidId>3a8de8a3-a091-4b12-9b73-84e5c68db624</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divBodyHome']/nav/ul/li[14]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Akseptasi COB&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>f49a22a8-dc3c-4a06-b53d-cf3ca5df7d71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>checkBoxNavigationTriggerAcceptationCOB</value>
+      <webElementGuid>b3ea4079-6c87-4b17-8b26-1d0c927ca70c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Akseptasi COB</value>
+      <webElementGuid>793a984a-2e86-46fe-9c6d-933adc2c9333</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/label[1]</value>
+      <webElementGuid>f4337b4d-91d0-4652-b2b6-17bf4cb616c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divBodyHome']/nav/ul/li[14]/label</value>
+      <webElementGuid>4b355491-c74d-41d3-bc8d-e26f2a3d22d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[2]/following::label[1]</value>
+      <webElementGuid>b2770847-7e5e-4adf-87ea-0b1dfca9723c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring'])[1]/following::label[1]</value>
+      <webElementGuid>731c6327-8bc5-4745-b5fd-7e9c8c173da5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submission'])[3]/preceding::label[1]</value>
+      <webElementGuid>d38d0c19-ecf3-454f-a0e7-2c0e04e6799e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring'])[2]/preceding::label[1]</value>
+      <webElementGuid>1d380bc0-504d-4a1e-bc0e-daada0c0fbf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Akseptasi COB']/parent::*</value>
+      <webElementGuid>3e481fc8-2450-4a95-b1c1-28d3515ab776</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[14]/label</value>
+      <webElementGuid>3321ec55-5978-4620-adbd-d51ea49daa03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Akseptasi COB' or . = 'Akseptasi COB')]</value>
+      <webElementGuid>074c4e1f-7d47-40b0-b218-0438cbcdbf04</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

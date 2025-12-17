@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenu Monitoring</name>
+   <tag></tag>
+   <elementGuidId>eeb6e5d6-ef90-454f-88f8-c8587181d23e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Monitoring&quot;s >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d939ac4d-4944-4b89-b453-fc48bdbe0dc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monitoring</value>
+      <webElementGuid>1bbf8452-a776-4212-bb92-8ace883fba4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/ul[@class=&quot;ListSubNavigation&quot;]/li[@class=&quot;ListItemSubNavigation&quot;]/a[1]</value>
+      <webElementGuid>7afd5a0b-ed37-4dcb-8e7c-945b6b1cb06b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li[3]/a</value>
+      <webElementGuid>949f3c13-8127-4ff7-bc02-9f2857f1f010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Monitoring')])[3]</value>
+      <webElementGuid>372eb3df-2693-4bea-8963-6422ea6584f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/following::a[1]</value>
+      <webElementGuid>1494e7e1-1668-4a11-b8fa-a69846021b7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submission'])[4]/following::a[2]</value>
+      <webElementGuid>6de510d6-23ac-4ec3-857e-e5765ebe488c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akseptasi COB'])[1]/preceding::a[1]</value>
+      <webElementGuid>feb77889-358f-48f2-869d-dc5d8bde67be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::a[2]</value>
+      <webElementGuid>3b9e97a2-b89d-41bf-b389-0c7a9b618bdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[14]/ul/li[3]/a</value>
+      <webElementGuid>82c34f98-c13a-4ba9-8e48-50475228d4a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Monitoring' or . = 'Monitoring')]</value>
+      <webElementGuid>f34c0e04-28e4-4bb5-a37d-3f162f71ca68</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

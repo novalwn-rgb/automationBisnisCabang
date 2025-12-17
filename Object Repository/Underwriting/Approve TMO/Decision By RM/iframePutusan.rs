@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframePutusan</name>
+   <tag></tag>
+   <elementGuidId>52e6b39a-5767-45c3-a65d-be6103f92411</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/fieldset/div/ckeditor[2]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/fieldset/div/ckeditor[2]/div/div/div/div</value>
+      <webElementGuid>9ec4aa4d-f47f-4e27-86d1-f4609186ad4d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

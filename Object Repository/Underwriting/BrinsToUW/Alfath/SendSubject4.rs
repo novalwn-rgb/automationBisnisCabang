@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SendSubject4</name>
+   <tag></tag>
+   <elementGuidId>696dfa88-33c5-40c1-b4d9-3bd86ac7a779</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[5]/table/tbody/tr[4]/td[8]/div/label[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[5]/table/tbody/tr[4]/td[8]/div/label[2]/input</value>
+      <webElementGuid>18a7e62a-c115-45e7-829a-c1e4f2c83f74</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

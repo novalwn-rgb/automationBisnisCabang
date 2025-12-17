@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Follow Us_instagram img</name>
+   <tag></tag>
+   <elementGuidId>8553d5a9-3996-40aa-90b7-1f20fd0739bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.instagram.img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, 'https://www.instagram.com/okezonecom/')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.instagram >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>669dd7f3-6def-4327-be5e-8cab11ebb9ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>c93f8140-34bb-475f-8508-8ea722ab00c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.instagram.com/okezonecom/</value>
+      <webElementGuid>843a68f7-02af-4007-91f7-f274cf3075be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>instagram img</value>
+      <webElementGuid>964bb4f5-2a72-4452-9ff5-3a68c23d17cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>navigasi</value>
+      <webElementGuid>bd1883a0-033e-49a3-8585-dbc85ce49019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/header[1]/div[@class=&quot;container-top-nav&quot;]/div[@class=&quot;container top-head-nav&quot;]/div[@class=&quot;top-head-nav__right&quot;]/div[@class=&quot;follow-us-top&quot;]/div[@class=&quot;flex-box&quot;]/a[@class=&quot;instagram img&quot;]</value>
+      <webElementGuid>5f2a6e52-1d64-4001-ac35-eb8026605d6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.instagram.com/okezonecom/')]</value>
+      <webElementGuid>71efc8d9-5b33-40a2-ac18-bc49ed4a1ca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a</value>
+      <webElementGuid>5a824565-2d04-40a1-ae67-dce1d21b433e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.instagram.com/okezonecom/']</value>
+      <webElementGuid>d304b43f-cc2b-4dfc-9208-e5625d22fe23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

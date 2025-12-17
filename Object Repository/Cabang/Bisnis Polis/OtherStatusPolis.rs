@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OtherStatusPolis</name>
+   <tag></tag>
+   <elementGuidId>cecbcb6e-c443-40eb-9ce0-43fa3fff974f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[4]/td[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[4]/td[8]</value>
+      <webElementGuid>7280c656-218d-4b67-9a65-42ee1c17e422</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

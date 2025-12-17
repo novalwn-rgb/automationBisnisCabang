@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OtherSubList</name>
+   <tag></tag>
+   <elementGuidId>2af9f818-fb4f-4738-9740-a35f5a5ffed6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[4]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[4]/td[2]</value>
+      <webElementGuid>0c32d4be-327e-475a-8bfe-57c0f859bda1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

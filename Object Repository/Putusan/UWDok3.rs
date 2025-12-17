@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>UWDok3</name>
+   <tag></tag>
+   <elementGuidId>2e2810b7-5f23-4d54-a2d1-a58896214f35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divMainDashboard']/form/div[12]/table/tbody/tr[3]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=cell[name=&quot;Dokumen test 3&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>8e4043b5-e22f-4f12-9ff5-c51d2a3596f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>0b0af1e9-6365-45c8-a990-faec397d843b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Dokumen test 3 </value>
+      <webElementGuid>5fedf6c6-2e43-438b-b0b1-1f2ed6c159e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-pristine ng-touched ng-valid&quot;]/div[@class=&quot;DivTableContainer DivTableContainerAcceptation ng-star-inserted&quot;]/table[@class=&quot;TableListDetailsAttachment&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>4a28d67c-91a0-436d-ad01-d8ab8b17040d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[12]/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>5c631603-77bd-423d-ab22-78e930ccb107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Junior Team Leader'])[6]/following::td[3]</value>
+      <webElementGuid>15a9a722-305d-4887-b73a-f2cb1e904019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen test 2'])[2]/following::td[6]</value>
+      <webElementGuid>bcc00cf2-0d40-4269-ab39-b56d6cfe5b73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Junior Team Leader'])[7]/preceding::td[3]</value>
+      <webElementGuid>c6324e51-9a45-4e7d-a36a-4da618ab6abf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen test 4'])[1]/preceding::td[6]</value>
+      <webElementGuid>3f01cef8-2685-40ea-84f1-ddfb8263799a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/table/tbody/tr[3]/td[2]</value>
+      <webElementGuid>b799294f-b595-4e45-ab6c-33dae104cd3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = ' Dokumen test 3 ' or . = ' Dokumen test 3 ')]</value>
+      <webElementGuid>db01e537-c4d1-4f7d-b704-b88e51ac592a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

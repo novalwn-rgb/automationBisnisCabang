@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenu Submission</name>
+   <tag></tag>
+   <elementGuidId>f3eddd0e-5f25-44dc-a81b-c6f0e8d2d7c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Submission&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ad7f3d2e-40a5-470a-9878-8f379dd0edeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submission</value>
+      <webElementGuid>31266f13-419c-4209-a2b4-dc6cefb73fe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/ul[@class=&quot;ListSubNavigation&quot;]/li[@class=&quot;ListItemSubNavigation&quot;]/a[1]</value>
+      <webElementGuid>1cfea0a5-613a-4542-8ec3-0c8b9906f2d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li/a</value>
+      <webElementGuid>433ac1e5-9952-4453-ae94-d2ebf6e8bf1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Submission')])[3]</value>
+      <webElementGuid>42086e05-47dc-4f33-b712-67ac414ad334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akseptasi COB'])[1]/following::a[1]</value>
+      <webElementGuid>3c51814b-bd7e-4677-ade1-e31f9fdff8e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[2]/following::a[1]</value>
+      <webElementGuid>54fa16a4-1fe2-42ee-8c4b-6fad36741d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring'])[2]/preceding::a[1]</value>
+      <webElementGuid>14247f3c-2201-4a8f-a7ea-3545b20eda66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penerbitan Polis'])[1]/preceding::a[2]</value>
+      <webElementGuid>922559f7-7485-49ea-af8f-ffbedf7e254a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[14]/ul/li/a</value>
+      <webElementGuid>7a7768d8-9635-463c-85bd-6f1fb77fb491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Submission' or . = 'Submission')]</value>
+      <webElementGuid>b09d81e7-1ab5-4437-898e-413753db5b88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

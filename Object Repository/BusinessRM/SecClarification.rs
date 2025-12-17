@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecClarification</name>
+   <tag></tag>
+   <elementGuidId>0ad45698-1723-46ce-a805-785bc09be9c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[6]/form/div[1]/h3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[6]/form/div[1]/h3</value>
+      <webElementGuid>76574c6e-36ff-4ba3-86ee-88feff244ecd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

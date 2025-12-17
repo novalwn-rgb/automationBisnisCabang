@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DateValidity</name>
+   <tag></tag>
+   <elementGuidId>700f53d4-2756-4fcb-85be-110de04e7f6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@placeholder='Date'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@placeholder='Date'])[1]</value>
+      <webElementGuid>db6be17e-1284-4853-b921-f831f4fb5be1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

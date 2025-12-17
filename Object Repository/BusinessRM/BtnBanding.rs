@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BtnBanding</name>
+   <tag></tag>
+   <elementGuidId>4b36034e-b0ec-424a-a056-3b6efbd0a4e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/form/div[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/form/div[1]/input[1]</value>
+      <webElementGuid>3e863004-7a01-4828-9f79-5defe12da5bf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

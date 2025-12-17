@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NotDok4</name>
+   <tag></tag>
+   <elementGuidId>58848aa5-7815-47f1-994a-8344ae8397f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[4]/div/table/tbody/tr[4]/td[5]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[4]/div/table/tbody/tr[4]/td[5]/div/span</value>
+      <webElementGuid>7c256cbe-9671-4b01-a3cf-1973e312c51c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

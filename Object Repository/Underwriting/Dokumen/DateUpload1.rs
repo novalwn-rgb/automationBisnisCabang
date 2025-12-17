@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DateUpload1</name>
+   <tag></tag>
+   <elementGuidId>a45803f5-64f8-4f76-8580-61fd5cb0f09a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divMainDashboard']/form/div[7]/table/tbody/tr/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(7) > .TableListDetailsAttachment > tbody > tr > td:nth-child(3) >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>ba922814-0eb9-4b8b-85f2-5cacf46bbe5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 27 November 2025</value>
+      <webElementGuid>a015df7f-0721-46df-b85e-85fe9d1cc10c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-touched ng-invalid ng-dirty&quot;]/div[@class=&quot;DivTableContainer DivTableContainerAcceptation&quot;]/table[@class=&quot;TableListDetailsAttachment&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[3]</value>
+      <webElementGuid>f441deff-4722-4226-bfa8-ccdb14a875d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[7]/table/tbody/tr/td[3]</value>
+      <webElementGuid>8a50a6d9-b842-45d1-b935-a2dbe227c07e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='reef'])[1]/following::td[1]</value>
+      <webElementGuid>d76dc333-2702-4ff1-9b5c-082086a7d679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[3]/following::td[3]</value>
+      <webElementGuid>a5645b79-87f9-4d67-9999-8c8e548df09c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Junior Team Leader'])[2]/preceding::td[2]</value>
+      <webElementGuid>04fac4ad-b098-49ac-95ef-71a5e9737fc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gffvf'])[1]/preceding::td[5]</value>
+      <webElementGuid>4816e8f2-215f-4197-83a5-305f83b6e90a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/table/tbody/tr/td[3]</value>
+      <webElementGuid>0e48895e-2e39-4ffd-bea0-510ff2cabe7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = ' 27 November 2025' or . = ' 27 November 2025')]</value>
+      <webElementGuid>3cc11321-4eb9-4361-be4d-3b95326e688d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

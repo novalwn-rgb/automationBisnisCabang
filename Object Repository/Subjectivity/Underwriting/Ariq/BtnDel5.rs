@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BtnDel5</name>
+   <tag></tag>
+   <elementGuidId>93f591f4-80be-44bb-8aa7-358ac98f96c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[9]/table/tbody/tr[5]/td[6]/div/label[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[9]/table/tbody/tr[5]/td[6]/div/label[2]/input</value>
+      <webElementGuid>70ed6fb8-1109-45fb-a8d0-1859f920f7cb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

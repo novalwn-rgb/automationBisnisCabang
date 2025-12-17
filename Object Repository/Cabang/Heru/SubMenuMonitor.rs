@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenuMonitor</name>
+   <tag></tag>
+   <elementGuidId>486a7dbe-444c-4ba4-b83e-d701c8c97392</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[3]/a</value>
+      <webElementGuid>115db1b5-50f9-4604-8ca7-35bafda56edc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

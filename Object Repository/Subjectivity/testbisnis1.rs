@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>testbisnis1</name>
+   <tag></tag>
+   <elementGuidId>03077aa0-fce0-40d0-b321-cd85f9e15544</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[1]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[1]/td[2]</value>
+      <webElementGuid>1a3ade4e-c6d6-4fd2-8857-8bcefaaf4a87</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

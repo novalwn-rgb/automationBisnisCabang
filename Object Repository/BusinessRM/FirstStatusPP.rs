@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirstStatusPP</name>
+   <tag></tag>
+   <elementGuidId>87b946b4-3b18-4ca9-9879-f589baa0dcbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[1]/td[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[1]/td[8]</value>
+      <webElementGuid>abd1980d-88d3-47a2-b416-27f19a0bf90f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

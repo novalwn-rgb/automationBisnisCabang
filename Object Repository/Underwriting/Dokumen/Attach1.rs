@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Attach1</name>
+   <tag></tag>
+   <elementGuidId>5cd70b2c-aff7-4ed2-919c-9a24d5c2014c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[7]/table/tbody/tr[1]/td[6]/div/label[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[7]/table/tbody/tr[1]/td[6]/div/label[1]/input[1]</value>
+      <webElementGuid>03773e98-7700-462b-9abd-8698a2382809</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

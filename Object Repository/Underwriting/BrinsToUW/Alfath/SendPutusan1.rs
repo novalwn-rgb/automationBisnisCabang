@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SendPutusan1</name>
+   <tag></tag>
+   <elementGuidId>bcf617e4-34c5-4786-9a15-c1098cf16db0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[14]/table/tbody/tr[1]/td[5]/div/label[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[14]/table/tbody/tr[1]/td[5]/div/label[2]/input</value>
+      <webElementGuid>984c7b66-878a-4112-ae8f-555195cc4a74</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

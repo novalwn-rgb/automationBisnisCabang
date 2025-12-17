@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lastNext</name>
+   <tag></tag>
+   <elementGuidId>fb3c7202-05c2-4416-b701-ec9ef0af01be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.DivButtonLast.Disable > input[type=&quot;button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d508d6bb-63e8-43cd-a2e4-aaaf9d6295ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>710c78ed-31cd-4620-a042-91ddacdc3fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/div[@class=&quot;DivMainTable&quot;]/div[@class=&quot;DivTableContainer DivTableScrool&quot;]/app-tablecontrolinclude[1]/div[@class=&quot;DivTableControl&quot;]/div[@class=&quot;DivTableSubControl&quot;]/div[@class=&quot;DivButtonLast Disable&quot;]/input[1]</value>
+      <webElementGuid>54e22f43-52c7-46da-903b-63e795e15c41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='button'])[6]</value>
+      <webElementGuid>8b338a74-a4f0-4592-af0e-ec8a56f652c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/div/div/app-tablecontrolinclude/div/div/div[4]/input</value>
+      <webElementGuid>52bc8e4a-7909-47ce-82bb-2c1d8a756688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/input</value>
+      <webElementGuid>c116f9a8-e1fd-44b1-9b56-02dccd58fb6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button']</value>
+      <webElementGuid>ae1aa478-5253-4444-90a8-05ee50d8022e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

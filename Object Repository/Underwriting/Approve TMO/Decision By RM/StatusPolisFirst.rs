@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StatusPolisFirst</name>
+   <tag></tag>
+   <elementGuidId>db1f4390-f39f-4528-841e-bbfa7a853f14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[1]/td[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[1]/td[10]</value>
+      <webElementGuid>3c8a9a5a-68eb-49a5-b4f2-c99bc3009eea</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

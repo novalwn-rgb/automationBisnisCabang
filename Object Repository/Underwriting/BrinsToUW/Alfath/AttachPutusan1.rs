@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AttachPutusan1</name>
+   <tag></tag>
+   <elementGuidId>a1c522e0-7584-4307-b6d6-c8bcc3d3e322</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[14]/table/tbody/tr/td[5]/div/label[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[14]/table/tbody/tr/td[5]/div/label[1]/input[1]</value>
+      <webElementGuid>4ec39c5b-2fc2-415b-99dd-dc87216db52e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

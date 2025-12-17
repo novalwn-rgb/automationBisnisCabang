@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenuSub</name>
+   <tag></tag>
+   <elementGuidId>aa86e522-21ea-4994-9355-7bf2a646d2c3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[1]/a</value>
+      <webElementGuid>9491ad55-5faa-401a-beda-6a9a69e2b68d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

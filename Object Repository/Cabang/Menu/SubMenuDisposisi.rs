@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubMenuDisposisi</name>
+   <tag></tag>
+   <elementGuidId>210b122b-959e-4534-a86e-74b4cb4d9d22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/nav/ul/li[14]/ul/li[1]/a</value>
+      <webElementGuid>5f8c4e5e-4226-4416-b6d9-d09525d21d5a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

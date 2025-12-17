@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputPutusan</name>
+   <tag></tag>
+   <elementGuidId>b49b3075-031b-4565-861b-0216132afa55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[4]/fieldset/div[1]/ckeditor[2]/div/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[4]/fieldset/div[1]/ckeditor[2]/div/div/div/div/p</value>
+      <webElementGuid>b6168e0d-2a89-4389-9dc6-5102dbc40ff0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

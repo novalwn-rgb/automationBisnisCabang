@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LastNextSub</name>
+   <tag></tag>
+   <elementGuidId>3f9bc9ce-85c9-4c4c-9652-5af0cb60aa10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/app-tablecontrolinclude/div/div[1]/div[4]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/app-tablecontrolinclude/div/div[1]/div[4]/input</value>
+      <webElementGuid>05edf4fa-730e-4e2c-9a8d-6be7f811065b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>submissionDetail</name>
+   <tag></tag>
+   <elementGuidId>1760177a-5b93-4e33-8add-20ec5870f6d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divMainDashboard']/div/div/table/tbody/tr[4]/td[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>bb3d23dc-1ee4-46c9-a483-612687f57291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BN57/1805/UND/WS-0114/SMG/11/25</value>
+      <webElementGuid>9ae67f28-041b-49bc-bfd6-e176b1201a01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/div[@class=&quot;DivMainTable&quot;]/div[@class=&quot;DivTableContainer DivTableScrool&quot;]/table[@class=&quot;TableListDetailsAttachment&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[2]</value>
+      <webElementGuid>165bcc68-ccab-4e94-ba16-ede0995a8237</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/div/div/table/tbody/tr[4]/td[2]</value>
+      <webElementGuid>3ebd9a63-d598-4f00-bfd8-f7918908e848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Waiting for Approval by Team Member Onsite'])[3]/following::td[2]</value>
+      <webElementGuid>11af7e79-483d-4b53-bd6d-83908a67c10c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[5]/following::td[3]</value>
+      <webElementGuid>2de7820a-121a-4f1b-a15e-836f4bfd749f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[6]/preceding::td[1]</value>
+      <webElementGuid>4c34d9b0-9391-400d-88e7-00fca9e947d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='testing'])[2]/preceding::td[2]</value>
+      <webElementGuid>71f6da72-9345-4670-902e-11c71a4552af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BN57/1805/UND/WS-0114/SMG/11/25']/parent::*</value>
+      <webElementGuid>09732c4c-8ac2-4f31-8269-9fcdf7f31da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]</value>
+      <webElementGuid>35516144-1c6f-4d1e-aa8b-8aa9a127b80b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'BN57/1805/UND/WS-0114/SMG/11/25' or . = 'BN57/1805/UND/WS-0114/SMG/11/25')]</value>
+      <webElementGuid>90a09b77-eb00-4424-aa6b-8915e2144ba6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
