@@ -23,7 +23,3 @@ WebUI.click(findTestObject('tes/a_Follow Us_instagram img'))
 
 WebUI.switchToWindowIndex(0)
 
-//WebUI.closeWindowIndex(1)
-
-WebUI.delay(1)
-
