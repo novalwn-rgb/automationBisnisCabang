@@ -21,5 +21,3 @@ WebUI.openBrowser('https://www.okezone.com/')
 
 WebUI.click(findTestObject('tes/a_Follow Us_instagram img'))
 
-WebUI.switchToWindowIndex(0)
-
