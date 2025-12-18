@@ -15,7 +15,7 @@
       <guid>0c6ce123-3709-43b8-86ff-321a97343d7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cabang By Data Entry/02 Cabang Wait Issue Policy By Anisa</testCaseId>
+      <testCaseId>Test Cases/Script Cabang Full/Cabang By Data Entry/02 Cabang Wait Issue Policy By Anisa</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

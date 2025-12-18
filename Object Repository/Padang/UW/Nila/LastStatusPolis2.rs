@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LastStatusPolis2</name>
+   <tag></tag>
+   <elementGuidId>21e75e48-6ac2-4a31-b124-a7689ffd557b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr/td[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr/td[11]</value>
+      <webElementGuid>5ec4b7b3-fa7e-4fa0-9987-5409e78bc573</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 UW - Approve TMO By JTL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9c0fc8d-fd1d-4da1-b0c3-81ce4555c164</testCaseGuid>
+</TestCaseEntity>

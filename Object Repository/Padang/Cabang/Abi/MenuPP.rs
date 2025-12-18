@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MenuPP</name>
+   <tag></tag>
+   <elementGuidId>85640536-39d1-4e95-a9c8-653556931883</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for='checkBoxNavigationTriggerPolicyIssued']&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for='checkBoxNavigationTriggerPolicyIssued']&#xd;
+</value>
+      <webElementGuid>17591633-9b4c-47be-af8d-d32b1f383246</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

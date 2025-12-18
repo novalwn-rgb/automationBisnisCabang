@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn Issue Policy</name>
+   <tag></tag>
+   <elementGuidId>32014806-3007-4f64-a23c-6f188e65fca3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.DivButtonPolicyIssued.ng-star-inserted > input[name=&quot;buttonDownloadAll&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='buttonDownloadAll'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Issue a Policy&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1de76e09-52c4-4a01-bebf-87e6d3069c4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e5b25e7d-9c94-4aca-9de7-6ac760d3de7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>buttonDownloadAll</value>
+      <webElementGuid>83b3b26b-2b9b-421c-b6b0-5069a9defdf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Issue a Policy</value>
+      <webElementGuid>8427658b-5d8f-4fae-9cca-c1a1301261ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonSubmit ButtonSubmitPolicyIssued</value>
+      <webElementGuid>4b55cec3-9cef-4e53-b57e-2c690523e43a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;DivButtonPolicyIssued ng-star-inserted&quot;]/input[@class=&quot;ButtonSubmit ButtonSubmitPolicyIssued&quot;]</value>
+      <webElementGuid>acfceab0-c80e-4d8d-812a-d101b823ae0e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name='buttonDownloadAll'])[3]</value>
+      <webElementGuid>89bf9324-0a89-42a5-89ff-35061525fdf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[11]/input</value>
+      <webElementGuid>45fb3b64-255a-4dd2-997a-0077dbd7a821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/input</value>
+      <webElementGuid>497a6f70-48de-4c60-a3bb-0c524ce9ccf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button' and @name = 'buttonDownloadAll']</value>
+      <webElementGuid>c65eb2c3-764b-4bd0-be52-55fcd42b536a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

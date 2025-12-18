@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[5]/td[7]</value>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[10]/td[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[5]/td[7]</value>
-      <webElementGuid>133899b7-e656-446b-860c-a83ef06f6070</webElementGuid>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[10]/td[7]</value>
+      <webElementGuid>cb3181e7-7b2f-497c-997f-f6480bc0e162</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

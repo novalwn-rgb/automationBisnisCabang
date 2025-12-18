@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirstStatusPolis</name>
+   <tag></tag>
+   <elementGuidId>cfb9b929-a0a0-474b-b181-5f445707f131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr/td[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr/td[8]</value>
+      <webElementGuid>7e8ddbc5-7159-4423-8ee3-4ac8b6c5da27</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

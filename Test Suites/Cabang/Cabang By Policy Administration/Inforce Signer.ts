@@ -15,7 +15,7 @@
       <guid>6792f8c2-2a8f-4420-8fa3-3760c3752ceb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cabang By Policy Administration/04 Waiting Inforce Signer</testCaseId>
+      <testCaseId>Test Cases/Script Cabang Full/Cabang By Policy Administration/04 Waiting Inforce Signer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

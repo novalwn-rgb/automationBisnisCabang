@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li/a</value>
+         <value>//div[@id='divBodyHome']/nav/ul/li[15]/ul/li/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>41e72598-735c-44d3-a150-6807ffc50b4c</webElementGuid>
+      <webElementGuid>df02c453-b543-4a00-9dcc-1d79687d5518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submission</value>
-      <webElementGuid>cb23b49a-171d-422e-8b16-89df5873071d</webElementGuid>
+      <webElementGuid>1a341ccb-584e-4bde-a17d-c8aaf7c82519</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +45,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/ul[@class=&quot;ListSubNavigation&quot;]/li[@class=&quot;ListItemSubNavigation ng-star-inserted&quot;]/a[1]</value>
-      <webElementGuid>bcf448fa-6d3f-47c6-98ec-825bc9d99c58</webElementGuid>
+      <webElementGuid>cdf24b8f-916c-4beb-8877-2e0ab75b6709</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li/a</value>
-      <webElementGuid>b00f36c9-17c1-4bac-a7b5-067eb693dfc2</webElementGuid>
+      <value>//div[@id='divBodyHome']/nav/ul/li[15]/ul/li/a</value>
+      <webElementGuid>e72e69c4-b086-49eb-b3d1-5bf203af2832</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Submission')])[3]</value>
-      <webElementGuid>5e8ec2bb-b199-45ae-b8a4-5b4b8cc7f793</webElementGuid>
+      <webElementGuid>41b4f24d-547c-4f9a-aaf7-f414cd1ea1d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Penerbitan Polis'])[1]/following::a[1]</value>
-      <webElementGuid>4a54d674-f461-4c2b-99d7-633c08a3dde2</webElementGuid>
+      <webElementGuid>e35951a9-953c-4de0-891f-c5aeee760627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Anomaly'])[1]/following::a[1]</value>
-      <webElementGuid>63c919ec-a38e-4adb-80e7-24d302443897</webElementGuid>
+      <webElementGuid>68f9ceb0-126f-4ef2-9d0e-4996d2bab7eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,39 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::a[1]</value>
-      <webElementGuid>d35d2441-0c5a-4cc5-b35d-182c6e8667b9</webElementGuid>
+      <webElementGuid>289b6885-85e5-4ccb-9007-9362022232b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring'])[5]/preceding::a[2]</value>
+      <webElementGuid>fffe7b4c-418b-4c32-8b38-246fb696be46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[15]/ul/li/a</value>
+      <webElementGuid>92c0715e-619a-4e7c-8dcc-279cbcca9591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Submission' or . = 'Submission')]</value>
+      <webElementGuid>0af84a11-74d5-4d8f-9a94-c904b2e19335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divBodyHome']/nav/ul/li[14]/ul/li/a</value>
+      <webElementGuid>b00f36c9-17c1-4bac-a7b5-067eb693dfc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,13 +134,5 @@
       <type>Main</type>
       <value>//li[14]/ul/li/a</value>
       <webElementGuid>52285221-5e7c-4238-ba81-4159f8c3daf0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Submission' or . = 'Submission')]</value>
-      <webElementGuid>242a05c0-d65b-4f11-a945-e0ccc4f1c386</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

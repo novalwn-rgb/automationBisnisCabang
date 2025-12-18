@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Date4</name>
+   <tag></tag>
+   <elementGuidId>db72163f-59ce-474c-837c-2c5218219011</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//input[@placeholder='Date'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//input[@placeholder='Date'])[1]</value>
+      <webElementGuid>c100b972-b6d9-483c-99fb-d5693c8b60f6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

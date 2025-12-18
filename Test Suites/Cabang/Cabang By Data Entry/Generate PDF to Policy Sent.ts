@@ -15,7 +15,7 @@
       <guid>f015e8a6-c7fb-4608-b14a-7e614d5d2518</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cabang By Data Entry/06 Bisnis Generate PDF</testCaseId>
+      <testCaseId>Test Cases/Script Cabang Full/Cabang By Data Entry/06 Bisnis Generate PDF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

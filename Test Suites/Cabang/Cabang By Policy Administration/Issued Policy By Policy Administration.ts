@@ -15,7 +15,7 @@
       <guid>1f0eef52-6b16-46b0-8789-83fccb89375d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cabang By Policy Administration/02 Issue Policy By Policy Administration</testCaseId>
+      <testCaseId>Test Cases/Script Cabang Full/Cabang By Policy Administration/02 Issue Policy By Policy Administration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

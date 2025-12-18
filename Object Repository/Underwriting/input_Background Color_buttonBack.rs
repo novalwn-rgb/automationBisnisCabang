@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Background Color_buttonBack</name>
+   <tag></tag>
+   <elementGuidId>dcbcc23b-4847-450c-87bc-df5010e917a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='buttonBack']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;buttonBack&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Back To Relationship Manager&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ef4cd5d5-e94c-45e0-b7e5-e4ac8af84a16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>32d23ddd-f42a-48dd-80b2-253cf358ff15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>buttonBack</value>
+      <webElementGuid>f888d4ad-3d82-4271-a401-aa8b8211c544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonBackRed ng-star-inserted</value>
+      <webElementGuid>6a60bb81-3c04-4718-9380-5ff5bf697530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Back To Relationship Manager</value>
+      <webElementGuid>f23cda36-dc49-4a6a-8101-d606abb5cee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;DivFormButtonContainer ng-star-inserted&quot;]/input[@class=&quot;ButtonBackRed ng-star-inserted&quot;]</value>
+      <webElementGuid>7edfa51f-125c-4e3c-be61-b8afd945e8e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='buttonBack']</value>
+      <webElementGuid>3aaa85f4-caa6-42e4-9e74-c49ddce340b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[13]/input</value>
+      <webElementGuid>4e8ea4ee-af55-4205-b18b-882e6c5043d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/input</value>
+      <webElementGuid>58ada279-c1b9-48fd-81e4-eab5207efebb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button' and @name = 'buttonBack']</value>
+      <webElementGuid>94d14073-ab55-4cd9-8cd4-6c6f17cefac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

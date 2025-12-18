@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='divBodyHome']/nav/ul/li[15]/ul/li/a</value>
+         <value>//div[@id='divBodyHome']/nav/ul/li[16]/ul/li/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c2b47d59-68a6-438d-8227-78296913a676</webElementGuid>
+      <webElementGuid>4ec5aaf8-afc4-4bae-88d3-7b2768a9682b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,23 +37,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Approval</value>
-      <webElementGuid>c9bb03a4-9544-4dec-b7d5-b3df039f5c70</webElementGuid>
+      <webElementGuid>1cb48d13-ac1b-4e22-bc23-7e87004b5991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/ul[@class=&quot;ListSubNavigation&quot;]/li[@class=&quot;ListItemSubNavigation&quot;]/a[1]</value>
-      <webElementGuid>0b3b0b15-b275-4c13-9eb3-e7d434baf284</webElementGuid>
+      <value>id(&quot;divBodyHome&quot;)/nav[@class=&quot;NavShow&quot;]/ul[@class=&quot;ListNavigation&quot;]/li[@class=&quot;ListItemNavigation&quot;]/ul[@class=&quot;ListSubNavigation&quot;]/li[@class=&quot;ListItemSubNavigation ng-star-inserted&quot;]/a[1]</value>
+      <webElementGuid>c6fb019e-5d08-4b8a-8e5a-e4f4e0ce0c19</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='divBodyHome']/nav/ul/li[15]/ul/li/a</value>
-      <webElementGuid>df421ceb-996b-4803-8d5a-4b97f539f3ea</webElementGuid>
+      <value>//div[@id='divBodyHome']/nav/ul/li[16]/ul/li/a</value>
+      <webElementGuid>bb1d1a1d-5913-4bb6-a291-e6ed03f43def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Approval')])[9]</value>
-      <webElementGuid>32e2bcef-d3fd-4720-b695-1b2225e3959e</webElementGuid>
+      <webElementGuid>681313e2-0301-4a18-ac15-c7f5443849f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Penerbitan Polis'])[1]/following::a[1]</value>
-      <webElementGuid>417bf409-9208-4b0c-9a38-3c63af58f195</webElementGuid>
+      <webElementGuid>6b4af3a8-299e-41c5-b8be-223b20ef024a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,47 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Anomaly'])[1]/following::a[1]</value>
-      <webElementGuid>b5e9324f-f6bd-4466-ac0a-9c49bc9b38ad</webElementGuid>
+      <webElementGuid>886bb657-4798-4161-be22-b7c0c773bd9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring'])[5]/preceding::a[1]</value>
+      <webElementGuid>b8e201c2-b94f-41cd-8430-448e594ccfe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loss Event Database'])[1]/preceding::a[2]</value>
+      <webElementGuid>b5005cf6-81ec-4942-aab3-9c7ddaa82708</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[16]/ul/li/a</value>
+      <webElementGuid>611ff40a-0644-48ed-9202-b6f9e8faf64f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Approval' or . = 'Approval')]</value>
+      <webElementGuid>5a1ed269-80bd-4bcf-a23d-6c6fe3c4f86d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divBodyHome']/nav/ul/li[15]/ul/li/a</value>
+      <webElementGuid>df421ceb-996b-4803-8d5a-4b97f539f3ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,25 +130,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loss Event Database'])[1]/preceding::a[2]</value>
-      <webElementGuid>ed2bd47c-0c28-4970-8701-a6525c41991a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[15]/ul/li/a</value>
       <webElementGuid>49963985-7292-411f-82bf-17b7dcfe8732</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Approval' or . = 'Approval')]</value>
-      <webElementGuid>eb938780-2f57-419e-bca4-95d472e44879</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

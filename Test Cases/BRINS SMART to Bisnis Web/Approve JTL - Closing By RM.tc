@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Approve JTL - Closing By RM</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8328cb62-3b0c-4d71-9e03-9d32856fbda6</testCaseGuid>
-</TestCaseEntity>
