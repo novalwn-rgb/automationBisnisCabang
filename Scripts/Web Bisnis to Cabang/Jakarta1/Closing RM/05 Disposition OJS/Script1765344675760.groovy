@@ -82,10 +82,5 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-////scriipt test suites
-//
-//WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
-//
-//WebUI.click(findTestObject('BusinessRM/SO Login'))
 WebUI.closeBrowser()
 

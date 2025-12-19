@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Aksep COB'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Submission'))
 
+WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
+
 //WebUI.click(findTestObject('BusinessRM/AksepCOB'))
 //
 //WebUI.click(findTestObject('BusinessRM/Submission'))
@@ -125,31 +127,33 @@ WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Submission'))
 //Case error
 WebUI.click(findTestObject('BusinessRM/FirstSubList'))
 
-//WebUI.click(findTestObject('BusinessRM/buttonNext'))
-//
-//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.acceptAlert()
-//
-//WebUI.click(findTestObject('BusinessRM/tambahDok'))
-//
-//WebUI.setText(findTestObject('BusinessRM/namaDok'), 'Dokumen Bisnis Sample 1')
-//
-//WebUI.uploadFile(findTestObject('BusinessRM/AddDok'), 'C:/Users/ACER/Downloads/Sample Dokumen/sample2.jpg')
-//
-//WebUI.click(findTestObject('BusinessRM/buttonAjukan'))
+WebUI.click(findTestObject('BusinessRM/buttonNext'))
 
-//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.acceptAlert()
-//
-//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.acceptAlert()
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Bisnis/Sec Akseptasi'), 0)
+WebUI.acceptAlert()
 
-WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
+WebUI.click(findTestObject('BusinessRM/tambahDok'))
+
+WebUI.setText(findTestObject('BusinessRM/namaDok'), 'Dokumen Bisnis Sample 1')
+
+WebUI.uploadFile(findTestObject('BusinessRM/AddDok'), 'C:/Users/ACER/Downloads/Sample Dokumen/sample2.jpg')
+
+WebUI.click(findTestObject('BusinessRM/buttonAjukan'))
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
+// Case error 2
+
+//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Bisnis/Sec Akseptasi'), 0)
+//
+//WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 WebUI.closeBrowser()
 

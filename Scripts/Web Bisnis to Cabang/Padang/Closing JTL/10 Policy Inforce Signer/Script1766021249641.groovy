@@ -66,5 +66,3 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-WebUI.closeBrowser()
-

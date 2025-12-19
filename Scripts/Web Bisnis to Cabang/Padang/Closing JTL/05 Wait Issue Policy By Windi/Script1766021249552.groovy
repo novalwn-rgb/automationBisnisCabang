@@ -35,6 +35,8 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu Pen
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu Submission'))
 
+WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
+
 // Verify Status Penerbitan Polis
 TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstStatusPolis')
 

@@ -70,10 +70,13 @@ WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), Key
 
 WebUI.scrollToElement(findTestObject('Underwriting/Approve TMO/inputLimit'), 0)
 
-WebUI.setText(findTestObject('Underwriting/Approve TMO/inputLimit'), 'Junior Team Leader')
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
 
-WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
 
+//WebUI.setText(findTestObject('Underwriting/Approve TMO/inputLimit'), 'Junior Team Leader')
+//
+//WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecSubjectivity'), 0)
 
 //Tambah Data Subjectivity
@@ -111,6 +114,10 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/10/2025')
+
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/Sec DokUnderwriting'), 0)
+
 //Upload Dok Underwriting
 //Dok 1
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahUnder'))
@@ -122,6 +129,14 @@ WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendUnder1'))
 
 // Spreading of Risk
+// TSI
+//WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_TSI1'), '120000000')
+WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/PremiSoR'), '5000000')
+
+WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/KetSoR'), 'cicilan bulanan')
+
+WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendSoR1'))
+
 // TSI Share BRINS
 WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_TSI Share Brins1'), '120000000')
 
@@ -186,12 +201,13 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_Sp
 WebUI.click(findTestObject('Underwriting/Approve TMO/Spreding of Risk/BtnKIRIM8'))
 
 // Status Akseptasi
-WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'))
 
-WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 'Process')
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih Akseptasi4'))
 
-WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), Keys.chord(Keys.ENTER))
-
+//WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 'Process')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('Underwriting/Approve TMO/buttonSubmit'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)

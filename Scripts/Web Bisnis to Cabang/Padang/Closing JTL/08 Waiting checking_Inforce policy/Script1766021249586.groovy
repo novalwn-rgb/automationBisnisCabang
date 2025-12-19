@@ -62,10 +62,13 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/SubDetail Check
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 0)
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), 'OS')
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Dropdown PemutusAkhir'))
 
-WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pilih PemutusAkhir1'))
 
+//WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), 'OS')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), Keys.chord(Keys.ENTER))
 WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Signer')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Send to Signer By OJS'))

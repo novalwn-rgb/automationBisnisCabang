@@ -62,12 +62,16 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstSub
 
 WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
-WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599') // CI Number Atas OJS
+WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599' // CI Number Atas OJS
+    )
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Dropdown PemutusAkhir'))
 
-WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/PilihOJS'))
 
+//WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification JTL')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/BtnSubmit By Data Entry'))
