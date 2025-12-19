@@ -72,21 +72,21 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/inputLimit'), 'Junior Tea
 
 WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
 
-WebUI.scrollToElement(findTestObject('Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
 //Tambah Data Subjectivity
 
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/TambahSubject'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 1')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 1')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/DataSubject1'), '12/10/2025')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/DataSubject1'), '12/10/2025')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 1')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 1')
 
-WebUI.uploadFile(findTestObject('Subjectivity/Underwriting/Mira/Attach1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.uploadFile(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Attach1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/SendSubject1'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SendSubject1'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

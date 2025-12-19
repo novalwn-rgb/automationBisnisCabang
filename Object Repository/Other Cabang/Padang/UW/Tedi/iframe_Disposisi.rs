@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe_Disposisi</name>
+   <tag></tag>
+   <elementGuidId>86243afe-10ea-41d1-a1ab-c3dcda82c9c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[4]/fieldset/div[1]/ckeditor[1]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[4]/fieldset/div[1]/ckeditor[1]/div/div/div/div</value>
+      <webElementGuid>98a4803d-7d82-478c-9f9f-ff08377bc9be</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

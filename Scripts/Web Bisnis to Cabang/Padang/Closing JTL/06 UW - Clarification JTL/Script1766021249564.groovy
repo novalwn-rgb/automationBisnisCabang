@@ -33,14 +33,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Underwriting/Menu/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Akseptasi COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Padang/UW/Nila/LastStatusPolis2')
+TestObject statusObject = findTestObject('Other Cabang/Padang/UW/Nila/LastStatusPolis2')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -60,7 +60,7 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Padang/UW/Nila/LastSubDetail2'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail2'))
 
 WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision2'), 0)
 

@@ -23,7 +23,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://staging.tis.web.brinesia.app/')
 
-WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.jakarta1.admin')
+WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.padang.rm')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -39,9 +39,9 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('BusinessRM/AksepCOB'))
+WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Aksep COB'))
 
-WebUI.click(findTestObject('BusinessRM/Submission'))
+WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 

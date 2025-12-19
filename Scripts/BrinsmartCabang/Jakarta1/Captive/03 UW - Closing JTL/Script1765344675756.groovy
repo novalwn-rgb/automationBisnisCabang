@@ -51,10 +51,10 @@ WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
 //WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastSubDetail1'))
 
-WebUI.scrollToElement(findTestObject('Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
 //All CheckBox
-//WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/AllcheckBoxSubjectivity'))
+//WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/AllcheckBoxSubjectivity'))
 WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
 
 WebUI.setText(findTestObject('Underwriting/BrinsToUW/Alfath/InputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')

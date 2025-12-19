@@ -22,15 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
 
-//System.setProperty('webdriver.chrome.driver', 'C:/Users/ACER/.katalon/packages/KSE-10.3.1/configuration/resources/drivers/chromedriver_win32/chromedriver.exe')
-//
-//WebDriver driver = new ChromeDriver()
-//
-//DriverFactory.changeWebDriver(driver)
-//
-//WebUI.navigateToUrl('https://staging.crm.web.brinesia.app/signin')
-
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'heru.sulistiono')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'windi.julianti')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -42,14 +34,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Cabang/Menu/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu PenerbitanPolis'))
 
-WebUI.click(findTestObject('Cabang/Menu/SubMenuSub'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Cabang/Heru/FirstStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstStatusPolis')
 
 WebUI.comment("--- Pengambilan Status Penerbitan Polis ---")
 
@@ -69,28 +61,23 @@ if (actualStatus == expectedStatus) {
 	println("❌ Peringatan: Status History TIDAK sesuai. Ditemukan: " + actualStatus)
 }
 
-WebUI.click(findTestObject('Cabang/Heru/FirstSubDetail'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstSubDetail'))
 
 WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
-WebUI.setText(findTestObject('Cabang/CI_Number'), '106080124000017')
+WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599') // CI Number Atas OJS
 
-WebUI.setText(findTestObject('Cabang/Pemutus Akhir By Septian'), 'OJS')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
 
-WebUI.sendKeys(findTestObject('Cabang/Pemutus Akhir By Septian'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
+
 
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification RM')
 
-WebUI.click(findTestObject('Cabang/BtnSubmit by Septian'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/BtnSubmit By Data Entry'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
-
-////scriipt test suites
-//
-//WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
-//
-//WebUI.click(findTestObject('BusinessRM/SO Login'))
 
 WebUI.closeBrowser()

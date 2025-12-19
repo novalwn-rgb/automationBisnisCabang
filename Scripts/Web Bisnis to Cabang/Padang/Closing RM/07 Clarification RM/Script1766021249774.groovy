@@ -23,7 +23,7 @@ import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 WebUI.openBrowser('https://staging.tis.web.brinesia.app/')
 
-WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.jakarta1.admin')
+WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.padang.rm')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -39,9 +39,9 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('BusinessRM/AksepCOB'))
+WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Aksep COB'))
 
-WebUI.click(findTestObject('BusinessRM/SubMenu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
@@ -69,7 +69,6 @@ if (actualStatus == expectedStatus) {
 WebUI.click(findTestObject('BusinessRM/FirstSubPP'))
 
 //WebUI.scrollToElement(findTestObject('BusinessRM/BtnClosing Instruction RM'), 0)
-
 WebUI.scrollToElement(findTestObject('BusinessRM/SecClarification'), 0)
 
 WebUI.setText(findTestObject('BusinessRM/InputClarification'), 'Done Clarification RM')

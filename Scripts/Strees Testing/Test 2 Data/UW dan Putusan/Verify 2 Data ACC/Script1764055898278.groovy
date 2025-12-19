@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Putusan/AksepCOB'))
 
 WebUI.click(findTestObject('Putusan/submission'))
 
-WebUI.click(findTestObject('Subjectivity/testbisnis2'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/testbisnis2'))
 
 // ==========================================================
 // A. Verifikasi Status Dokumen Putusan
@@ -139,7 +139,7 @@ if (isAnyDocument) {
 		WebUI.comment((('Dokumen yang ditampilkan: ' + (i + 1)) + ': ') + isDocumentPresent.get(i))
 	}
 	
-	WebUI.click(findTestObject('Subjectivity/Bisnis/BtnClosing Instruction RM Disable'))
+	WebUI.click(findTestObject('Underwriting/Subjectivity/Bisnis/BtnClosing Instruction RM Disable'))
 	
 } else {
 	println('❌ Dokumen Putusan TIDAK DITEMUKAN. (Asumsi: Belum disetujui atau gagal tampil).')

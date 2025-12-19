@@ -45,43 +45,43 @@ WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
 
 WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastSubDetail1'))
 
-WebUI.scrollToElement(findTestObject('Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
 //Dok 2
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/TambahSubject'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 2')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 2')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/Date2'), '11/19/2025')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Date2'), '11/19/2025')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 2')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 2')
 
-//WebUI.uploadFile(findTestObject('Subjectivity/Underwriting/Mira/Attach2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/SendSubject2'))
+//WebUI.uploadFile(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Attach2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SendSubject2'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
 //Dok 3
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/TambahSubject'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 3')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/textAreaSubjectivityNote'), 'Dokumen test 3')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/Date3'), '11/19/2025')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Date3'), '11/19/2025')
 
-WebUI.setText(findTestObject('Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 3')
+WebUI.setText(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SubjectivityDescription'), 'Dokumen Sample 3')
 
-WebUI.uploadFile(findTestObject('Subjectivity/Underwriting/Mira/Attach3'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
+WebUI.uploadFile(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Attach3'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
 
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/SendSubject3'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SendSubject3'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
 //All CheckBox
-//WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/AllcheckBoxSubjectivity'))
+//WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/AllcheckBoxSubjectivity'))
 
 WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
 

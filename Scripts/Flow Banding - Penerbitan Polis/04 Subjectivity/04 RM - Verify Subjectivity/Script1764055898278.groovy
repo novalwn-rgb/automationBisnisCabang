@@ -41,19 +41,19 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('Subjectivity/Bisnis/Menu Aksep COB'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Bisnis/Menu Aksep COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Subjectivity/Bisnis/SubMenu Submission'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Bisnis/SubMenu Submission'))
 
-WebUI.click(findTestObject('Subjectivity/testbisnis1'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/testbisnis1'))
 
-String subjectivityStatus1 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject1'))
+String subjectivityStatus1 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject1'))
 
-String subjectivityStatus2 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject2'))
+String subjectivityStatus2 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject2'))
 
-TestObject closingButton = findTestObject('Subjectivity/Bisnis/BtnClosing Instruction RM Aktif')
+TestObject closingButton = findTestObject('Underwriting/Subjectivity/Bisnis/BtnClosing Instruction RM Aktif')
 
 // Kumpulkan semua status dalam satu List
 List<String> allStatuses = Arrays.asList(subjectivityStatus1.trim(), subjectivityStatus2.trim())

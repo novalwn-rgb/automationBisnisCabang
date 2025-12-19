@@ -74,7 +74,7 @@ WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputLimit'), 'Junior
 
 WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
 
-WebUI.scrollToElement(findTestObject('Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
 //Tambah Data Subjectivity
 //Dok 1
@@ -95,7 +95,7 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 WebUI.acceptAlert()
 
 //Dok 2
-WebUI.click(findTestObject('Subjectivity/Underwriting/Mira/TambahSubject'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
 
 WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectivityNote'), 'Dokumen test 2')
 

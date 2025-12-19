@@ -32,26 +32,26 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Underwriting/Menu/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Akseptasi COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
 //WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
-WebUI.click(findTestObject('Padang/UW/Nila/LastSubDetail1'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
 
-WebUI.scrollToElement(findTestObject('Padang/UW/Nila/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
 
 WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
 
-WebUI.setText(findTestObject('Padang/UW/Nila/InputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/InputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.sendKeys(findTestObject('Padang/UW/Nila/InputDisposisi'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Nila/InputDisposisi'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Padang/UW/Nila/InputPutusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/InputPutusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.sendKeys(findTestObject('Padang/UW/Nila/InputPutusan'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Nila/InputPutusan'), Keys.chord(Keys.ENTER))
 
 WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
 

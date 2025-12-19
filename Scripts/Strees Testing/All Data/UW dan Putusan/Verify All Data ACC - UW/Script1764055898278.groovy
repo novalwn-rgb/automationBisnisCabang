@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Underwriting/BtnCari'))
 
 WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 
-WebUI.click(findTestObject('Subjectivity/Underwriting/testUW6'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/testUW6'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 

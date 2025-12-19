@@ -41,25 +41,25 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('Subjectivity/Bisnis/Menu Aksep COB'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Bisnis/Menu Aksep COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Subjectivity/Bisnis/SubMenu Submission'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/Bisnis/SubMenu Submission'))
 
-WebUI.click(findTestObject('Subjectivity/testbisnis1'))
+WebUI.click(findTestObject('Underwriting/Subjectivity/testbisnis1'))
 
 //				// ----------------------------------------
 //				// A. Ambil Status Subjectivity
 //				// ----------------------------------------
 //	
-//					String subjectivityStatus1 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject1'))
-//					String subjectivityStatus2 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject2'))
-//					String subjectivityStatus3 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject3'))
-//					String subjectivityStatus4 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject4'))
-//					String subjectivityStatus5 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject5'))
-//					String subjectivityStatus6 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject6'))
-//					String subjectivityStatus7 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject7'))
+//					String subjectivityStatus1 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject1'))
+//					String subjectivityStatus2 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject2'))
+//					String subjectivityStatus3 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject3'))
+//					String subjectivityStatus4 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject4'))
+//					String subjectivityStatus5 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject5'))
+//					String subjectivityStatus6 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject6'))
+//					String subjectivityStatus7 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject7'))
 //				
 //					TestObject closingButton = findTestObject('Subjectivity/Bisnis/BtnClosing Instruction RM')
 //				
@@ -93,21 +93,21 @@ WebUI.click(findTestObject('Subjectivity/testbisnis1'))
 //					    WebUI.verifyElementPresent(closingButton, 1, FailureHandling.STOP_ON_FAILURE)
 //					}
 // ... Ambil status 1-7 (seperti di script Anda) ...
-String subjectivityStatus1 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject1'))
+String subjectivityStatus1 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject1'))
 
-String subjectivityStatus2 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject2'))
+String subjectivityStatus2 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject2'))
 
-String subjectivityStatus3 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject3'))
+String subjectivityStatus3 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject3'))
 
-String subjectivityStatus4 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject4'))
+String subjectivityStatus4 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject4'))
 
-String subjectivityStatus5 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject5'))
+String subjectivityStatus5 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject5'))
 
-String subjectivityStatus6 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject6'))
+String subjectivityStatus6 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject6'))
 
-String subjectivityStatus7 = WebUI.getText(findTestObject('Subjectivity/Bisnis/ACCSubject7'))
+String subjectivityStatus7 = WebUI.getText(findTestObject('Underwriting/Subjectivity/Bisnis/ACCSubject7'))
 
-TestObject closingButton = findTestObject('Subjectivity/Bisnis/BtnClosing Instruction RM Aktif')
+TestObject closingButton = findTestObject('Underwriting/Subjectivity/Bisnis/BtnClosing Instruction RM Aktif')
 
 // Kumpulkan semua status dalam satu List
 List<String> allStatuses = Arrays.asList(subjectivityStatus1.trim(), subjectivityStatus2.trim(), subjectivityStatus3.trim(), 

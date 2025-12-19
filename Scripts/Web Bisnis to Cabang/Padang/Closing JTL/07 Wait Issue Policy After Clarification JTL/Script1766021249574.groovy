@@ -31,14 +31,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Cabang/Menu/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu PenerbitanPolis'))
 
-WebUI.click(findTestObject('Cabang/Menu/SubMenuSub'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Padang/Cabang/Windi/FirstStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstStatusPolis')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,20 +58,19 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Padang/Cabang/Windi/FirstSubDetail'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstSubDetail'))
 
 WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
-WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599' // CI Number Atas OJS
-    )
+WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599') // CI Number Atas OJS
 
-WebUI.setText(findTestObject('Padang/Cabang/Windi/Pemutus Akhir By Data Entry'), 'OJS')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
 
-WebUI.sendKeys(findTestObject('Padang/Cabang/Windi/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
 
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification JTL')
 
-WebUI.click(findTestObject('Padang/Cabang/Windi/BtnSubmit By Data Entry'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/BtnSubmit By Data Entry'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

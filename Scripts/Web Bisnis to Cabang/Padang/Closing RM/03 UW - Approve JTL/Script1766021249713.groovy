@@ -24,7 +24,7 @@ import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'm.alfath')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'nila.melani')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -36,22 +36,22 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Underwriting/Menu/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Akseptasi COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/NextSubList'))
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastSubList'))
 
-WebUI.scrollToElement(findTestObject('Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
 
 //All CheckBox
-WebUI.doubleClick(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
+WebUI.doubleClick(findTestObject('Other Cabang/Padang/UW/Nila/AllcheckBoxSubjectivity'))
 
-WebUI.click(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/AllcheckBoxSubjectivity'))
 
 WebUI.delay(10)
 
