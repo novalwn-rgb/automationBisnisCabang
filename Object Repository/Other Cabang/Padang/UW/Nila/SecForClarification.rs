@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastStatusPolis2</name>
+   <name>SecForClarification</name>
    <tag></tag>
-   <elementGuidId>21e75e48-6ac2-4a31-b124-a7689ffd557b</elementGuidId>
+   <elementGuidId>d5aa89df-4847-4091-84ae-618ee57b8154</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
-      <webElementGuid>fc8b6ab7-d7ef-4a94-817b-ee161471de0e</webElementGuid>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/h3</value>
+      <webElementGuid>95e1ea5b-461d-4216-936b-1015525e5a49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

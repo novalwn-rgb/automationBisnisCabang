@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastStatusPolis2</name>
+   <name>Pilih TOC</name>
    <tag></tag>
-   <elementGuidId>21e75e48-6ac2-4a31-b124-a7689ffd557b</elementGuidId>
+   <elementGuidId>ea131a11-da34-4ed4-9534-9193cfa6cefd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
+         <value>//div[contains(@class,'ng-dropdown-panel')]//span[normalize-space()='PSAKI']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
-      <webElementGuid>fc8b6ab7-d7ef-4a94-817b-ee161471de0e</webElementGuid>
+      <value>//div[contains(@class,'ng-dropdown-panel')]//span[normalize-space()='PSAKI']</value>
+      <webElementGuid>650b4494-56ef-4bda-8062-75dd4d100c35</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

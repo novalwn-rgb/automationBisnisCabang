@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastStatusPolis2</name>
+   <name>ClarificationInput Putusan</name>
    <tag></tag>
-   <elementGuidId>21e75e48-6ac2-4a31-b124-a7689ffd557b</elementGuidId>
+   <elementGuidId>c85ca0d2-0ada-4998-b8c7-5c47e32122fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
+         <value>//h3[normalize-space()='Faster Your Decision But Prudent']&#xd;
+/following::label[normalize-space()='Putusan*']&#xd;
+/following::div[contains(@class,'cke_editable')][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +20,9 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[4]/td[11]</value>
-      <webElementGuid>fc8b6ab7-d7ef-4a94-817b-ee161471de0e</webElementGuid>
+      <value>//h3[normalize-space()='Faster Your Decision But Prudent']&#xd;
+/following::label[normalize-space()='Putusan*']&#xd;
+/following::div[contains(@class,'cke_editable')][1]</value>
+      <webElementGuid>49866d68-061a-4f3b-8789-f7833d886530</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
