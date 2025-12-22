@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BtnApprove</name>
+   <tag></tag>
+   <elementGuidId>526b58ab-1b8a-418f-a07e-0688e56e2826</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[12]/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[12]/input[2]</value>
+      <webElementGuid>a047f509-df2a-4aec-885e-73e6f92ea77f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

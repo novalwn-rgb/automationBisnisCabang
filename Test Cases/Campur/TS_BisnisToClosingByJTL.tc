@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS_BisnisToClosingByJTL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e18f30b-f792-4b4e-badb-e875a6d94671</testCaseGuid>
+</TestCaseEntity>

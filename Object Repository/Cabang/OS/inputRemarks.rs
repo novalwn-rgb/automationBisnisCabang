@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputRemarks</name>
+   <tag></tag>
+   <elementGuidId>11620c37-431a-48a9-a35b-14831ae3af01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[11]/fieldset/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[11]/fieldset/textarea</value>
+      <webElementGuid>1ffa2810-eddf-4dc9-8508-be5bf70f4964</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputDisposisi</name>
+   <tag></tag>
+   <elementGuidId>b5bfa5ca-a307-4b38-aef3-7f0ded71eed8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[12]/fieldset/div/ckeditor[1]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[12]/fieldset/div/ckeditor[1]/div/div/div/div</value>
+      <webElementGuid>aaab622b-2d17-4b70-b27e-e18e2bab898d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

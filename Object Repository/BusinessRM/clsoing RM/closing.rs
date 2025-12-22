@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>closing</name>
+   <tag></tag>
+   <elementGuidId>9eeb78e8-857e-423a-9e90-d2b4e328a459</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//form//input[@name='buttonClosingInstruction']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//form//input[@name='buttonClosingInstruction']</value>
+      <webElementGuid>0c843f44-7c35-4382-999c-e38763ffa060</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

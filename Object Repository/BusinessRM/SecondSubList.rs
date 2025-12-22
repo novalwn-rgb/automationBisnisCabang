@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecondSubList</name>
+   <tag></tag>
+   <elementGuidId>c230eeea-b021-4b65-b0ca-4e9836220d5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[2]/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinesslist/div/div/div/div/table/tbody/tr[2]/td[2]</value>
+      <webElementGuid>f145bbcd-a7d2-4c16-8587-7670d26b3018</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

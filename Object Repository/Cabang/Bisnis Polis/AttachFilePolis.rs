@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AttachFilePolis</name>
+   <tag></tag>
+   <elementGuidId>aa113681-8c0c-49ca-bc7c-43ac13793b86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[7]/form/div[2]/fieldset/div/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[7]/form/div[2]/fieldset/div/div[1]/input</value>
+      <webElementGuid>e1f4809b-0805-40a8-afff-4228c421248c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

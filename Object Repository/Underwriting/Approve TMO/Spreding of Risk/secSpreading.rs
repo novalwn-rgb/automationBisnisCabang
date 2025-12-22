@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>secSpreading</name>
+   <tag></tag>
+   <elementGuidId>a23c1e9a-5b3a-4698-8e81-b029ddd27f1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='divMainDashboard']/form/div[9]/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Spreading of Risk&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>aa1aa19a-1507-4d7b-a38c-4e72e90d1f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Spreading of Risk</value>
+      <webElementGuid>dc09cea4-e98b-4869-bc30-2949a4bab58b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;DivTableContainer DivTableContainerAcceptation&quot;]/h3[1]</value>
+      <webElementGuid>6472a9f7-32cf-403b-99ba-d7e1ff2e4533</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[9]/h3</value>
+      <webElementGuid>1ee3b470-7452-4274-b875-273afbf802b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monito....xlsx'])[1]/following::h3[1]</value>
+      <webElementGuid>e8f30821-31f4-4faf-a297-1f02e4463e77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='photo_....jpg'])[1]/following::h3[1]</value>
+      <webElementGuid>a1fb0662-2e4d-478d-88e0-4638d96770e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[3]/preceding::h3[1]</value>
+      <webElementGuid>42a745c5-180e-4aa6-95f2-0246e64d0747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spreading of Risk'])[2]/preceding::h3[1]</value>
+      <webElementGuid>7bb3a3f1-0888-4f1a-93ba-ae8ca0d73227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Spreading of Risk']/parent::*</value>
+      <webElementGuid>c5a9c8cf-b388-4136-9d1b-b7ebf9a0b28b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/h3</value>
+      <webElementGuid>46aa23c2-6248-4cfb-bcf3-3524a30fd285</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Spreading of Risk' or . = 'Spreading of Risk')]</value>
+      <webElementGuid>c95e4c82-8d78-4b77-96d7-e2c68f49020e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

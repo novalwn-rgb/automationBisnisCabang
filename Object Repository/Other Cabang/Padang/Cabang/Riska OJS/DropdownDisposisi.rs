@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DropdownDisposisi</name>
+   <tag></tag>
+   <elementGuidId>967161ff-a8ed-4d59-b3de-007f8e070c92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ng-select[@id='selectStatus']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ng-select[@id='selectStatus']</value>
+      <webElementGuid>d1d51faf-c4f1-4473-824e-ad7692e8c40e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

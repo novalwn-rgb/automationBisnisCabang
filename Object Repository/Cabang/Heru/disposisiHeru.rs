@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>disposisiHeru</name>
+   <tag></tag>
+   <elementGuidId>f9280262-9a42-48c8-8643-c6891051215a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[9]/fieldset/div/div[1]/div/ng-select/ng-dropdown-panel/div/div[2]/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[9]/fieldset/div/div[1]/div/ng-select/ng-dropdown-panel/div/div[2]/div[2]/span</value>
+      <webElementGuid>1171f95f-8209-400e-9445-5745cee52620</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

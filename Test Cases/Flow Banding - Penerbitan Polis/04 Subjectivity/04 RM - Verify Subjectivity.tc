@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 RM - Verify Subjectivity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dbd08a9e-adb1-43e3-83b6-ba34fdafedfc</testCaseGuid>
+</TestCaseEntity>

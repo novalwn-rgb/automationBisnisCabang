@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CariSubNumber</name>
+   <tag></tag>
+   <elementGuidId>fe4e0871-2748-4e30-b605-49fa95f872c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessinsert/div/div/div[1]/form/div/fieldset/div/div[1]/div[1]/input[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessinsert/div/div/div[1]/form/div/fieldset/div/div[1]/div[1]/input[2]</value>
+      <webElementGuid>49c31885-c9b8-40c6-b850-f3111007f243</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

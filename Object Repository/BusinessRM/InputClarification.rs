@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputClarification</name>
+   <tag></tag>
+   <elementGuidId>e26ba20c-70f7-4902-9601-ff9bf6dad1a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[6]/form/div[1]/fieldset/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobpolicydetail/div/div/div/div[6]/form/div[1]/fieldset/textarea</value>
+      <webElementGuid>9059d741-0303-4054-9ae6-a537a5831d59</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

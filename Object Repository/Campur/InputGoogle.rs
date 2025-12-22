@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputGoogle</name>
+   <tag></tag>
+   <elementGuidId>f89eee7b-5063-41b1-9e87-f0c39dd31699</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/ntp-app//div/div[2]/cr-searchbox//div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/ntp-app//div/div[2]/cr-searchbox//div[1]/input</value>
+      <webElementGuid>1acd7ed4-56f1-43da-9b41-cb18953c72e2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

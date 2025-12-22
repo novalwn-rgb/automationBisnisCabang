@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ACCSubject4</name>
+   <tag></tag>
+   <elementGuidId>f5cd0027-9060-48bf-ab80-f984c2df20e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[3]/div/table/tbody/tr[4]/td[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[3]/div/table/tbody/tr[4]/td[1]/span</value>
+      <webElementGuid>d4712e42-f9b8-471c-aef8-97793d50d2ed</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

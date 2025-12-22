@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NoteDisposisi</name>
+   <tag></tag>
+   <elementGuidId>0c16333a-d205-4437-87ac-ce76ce3a2460</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[9]/fieldset/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationdetail/div/div/form/div[9]/fieldset/textarea</value>
+      <webElementGuid>ab0137a9-b68c-4529-85e9-3d34fceb0839</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

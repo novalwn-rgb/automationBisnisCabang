@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Underwriting - Approve TMO By JTL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0d688c1-a9e1-49fc-a635-3e6268460289</testCaseGuid>
+</TestCaseEntity>

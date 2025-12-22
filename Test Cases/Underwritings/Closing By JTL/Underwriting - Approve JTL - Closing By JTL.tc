@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Underwriting - Approve JTL - Closing By JTL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84a07776-64f3-453f-a734-edb4c4125ac5</testCaseGuid>
+</TestCaseEntity>

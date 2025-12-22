@@ -1,0 +1,135 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import java.util.Arrays as Arrays
+import org.openqa.selenium.WebElement as WebElement
+import java.util.List as List
+import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+// ALL DATA YANG DISETUJUI
+WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'miranti.cecilia')
+
+WebUI.click(findTestObject('BusinessRM/buttonEnter'))
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
+WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
+
+WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
+
+WebUI.click(findTestObject('Underwriting/Menu/Menu Aksep COB'))
+
+WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
+
+WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
+
+WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/testUW6'))
+
+WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
+
+WebUI.scrollToElement(findTestObject('Underwriting/Dokumen/Sec DokUnderwriting'), 0)
+
+//Dok 1
+WebUI.click(findTestObject('Underwriting/Dokumen/BtnTambahUnder'))
+
+WebUI.setText(findTestObject('Underwriting/Dokumen/inputDok Under'), 'Dokumen test 1')
+
+WebUI.uploadFile(findTestObject('Underwriting/Dokumen/Attach1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
+WebUI.click(findTestObject('Underwriting/Dokumen/Send1'))
+
+//Dok 2
+WebUI.click(findTestObject('Underwriting/Dokumen/BtnTambahUnder'))
+
+WebUI.setText(findTestObject('Underwriting/Dokumen/inputDok Under'), 'Dokumen test 2')
+
+WebUI.uploadFile(findTestObject('Underwriting/Dokumen/Attach2'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
+
+WebUI.click(findTestObject('Underwriting/Dokumen/Send2'))
+
+//Dok 3
+WebUI.click(findTestObject('Underwriting/Dokumen/BtnTambahUnder'))
+
+WebUI.setText(findTestObject('Underwriting/Dokumen/inputDok Under'), 'Dokumen test 3')
+
+WebUI.uploadFile(findTestObject('Underwriting/Dokumen/Attach3'), 'C:/Users/ACER/Downloads/Sample Dokumen/SampleVideo_1280x720_1mb.mp4')
+
+WebUI.click(findTestObject('Underwriting/Dokumen/Send3'))
+
+WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
+
+WebUI.setText(findTestObject('Underwriting/Approve TMO/Decision By RM/inputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+
+WebUI.setText(findTestObject('Underwriting/Approve TMO/Decision By RM/inputPutusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+
+WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
+
+//Dok 1
+WebUI.click(findTestObject('Putusan/BtnTambah Putusan'))
+
+WebUI.setText(findTestObject('Putusan/inputNama Dok'), 'Dokumen test 1')
+
+WebUI.uploadFile(findTestObject('Putusan/Attach1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
+WebUI.click(findTestObject('Putusan/Send1'))
+
+//Dok 2
+WebUI.click(findTestObject('Putusan/BtnTambah Putusan'))
+
+WebUI.setText(findTestObject('Putusan/inputNama Dok'), 'Dokumen test 2')
+
+WebUI.uploadFile(findTestObject('Putusan/Attach2'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
+
+WebUI.click(findTestObject('Putusan/Send2'))
+
+//Dok 3
+WebUI.click(findTestObject('Putusan/BtnTambah Putusan'))
+
+WebUI.setText(findTestObject('Putusan/inputNama Dok'), 'Dokumen test 3')
+
+WebUI.uploadFile(findTestObject('Putusan/Attach3'), 'C:/Users/ACER/Downloads/Sample Dokumen/SampleVideo_1280x720_1mb.mp4')
+
+WebUI.click(findTestObject('Putusan/Send3'))
+
+//Dok 4
+WebUI.click(findTestObject('Putusan/BtnTambah Putusan'))
+
+WebUI.setText(findTestObject('Putusan/inputNama Dok'), 'Dokumen test 4')
+
+WebUI.uploadFile(findTestObject('Putusan/Attach4'), 'C:/Users/ACER/Downloads/Sample Dokumen/SampleVideo_1280x720_1mb.mp4')
+
+WebUI.click(findTestObject('Putusan/Send4'))
+
+WebUI.click(findTestObject('Putusan/All checkBoxPutusan'))
+
+WebUI.click(findTestObject('Underwriting/Approve TMO/Decision By RM/Btn Decision'))
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06 Bisnis Generate PDF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93d42afa-4aac-48b7-9d98-3b17178446b1</testCaseGuid>
+</TestCaseEntity>
