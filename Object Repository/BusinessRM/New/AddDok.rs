@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/tbody/tr/td[4]/div/input</value>
+         <value>//input[@type='file' and starts-with(@id,'upload-doc')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/tbody/tr/td[4]/div/input</value>
-      <webElementGuid>ea583fd7-34a2-4da1-acf3-f6e9f26bc747</webElementGuid>
+      <value>//input[@type='file' and starts-with(@id,'upload-doc')]</value>
+      <webElementGuid>11a9c1b0-866b-4af6-882c-e340e9a6cf61</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

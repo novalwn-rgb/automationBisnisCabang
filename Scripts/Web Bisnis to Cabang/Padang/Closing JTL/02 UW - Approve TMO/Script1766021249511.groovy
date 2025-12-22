@@ -89,7 +89,9 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/Date1'), '12/18/2025')
 
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Subjectivity 1')
 
-WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject1'))
 
@@ -106,7 +108,9 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/Date2'), '12/18/2025')
 
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Subjectivity 2')
 
-WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/Monitoring Akseptasi COB.xlsx')
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject2'))
 
@@ -114,7 +118,7 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/10/2025')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/22/2025')
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/Sec DokUnderwriting'), 0)
 
@@ -124,7 +128,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahUnder'))
 
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputNamaDokUnder'), 'Dokumen test 1')
 
-WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/Legal Consent.docx')
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendUnder1'))
 

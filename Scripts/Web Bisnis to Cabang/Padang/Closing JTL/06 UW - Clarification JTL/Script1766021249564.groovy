@@ -62,14 +62,15 @@ if (actualStatus == expectedStatus) {
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail2'))
 
-WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision2'), 0)
+//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 0)
 
-WebUI.setText(findTestObject('Underwriting/Approve TMO/Decision By RM/inputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.setText(findTestObject('Underwriting/Approve TMO/Decision By RM/inputPutusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.click(findTestObject('Underwriting/Approve JTL/Btn Closing Instruction2'))
+WebUI.delay(5)
 
+//WebUI.click(findTestObject('Underwriting/Approve JTL/Btn Closing Instruction2'))
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()

@@ -68,5 +68,11 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/PilihNamaDispos
 
 WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Windi')
 
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/BtnSubmit Disposisi'))
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
 WebUI.closeBrowser()
 

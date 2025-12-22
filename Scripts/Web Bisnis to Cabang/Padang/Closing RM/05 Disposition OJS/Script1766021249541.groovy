@@ -62,9 +62,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/LastDetailDispo
 
 WebUI.scrollToElement(findTestObject('Cabang/Disposisi/SecDisposisi'), 0)
 
-WebUI.setText(findTestObject('Cabang/Disposisi/PilihDisposisi'), 'Windi Julianti')
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/DropdownDisposisi'))
 
-WebUI.sendKeys(findTestObject('Cabang/Disposisi/PilihDisposisi'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/PilihNamaDisposisi2'))
 
 WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Windi')
 

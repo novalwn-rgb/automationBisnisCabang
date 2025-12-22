@@ -70,9 +70,9 @@ WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Sekar/iframe_Putusan'), Ke
 
 WebUI.scrollToElement(findTestObject('Underwriting/BrinsToUW/Sekar/InputLimit'), 0)
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputLimit'), 'Junior Team Leader')
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
 
-WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
 
 WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
@@ -216,11 +216,9 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_Sp
 WebUI.click(findTestObject('Underwriting/Approve TMO/Spreding of Risk/BtnKIRIM8'))
 
 // Status Akseptasi
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'), 'Process')
-
-WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih Akseptasi4'))
 
 WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnSubmit'))
 

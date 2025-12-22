@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[3]/form/div/h3</value>
+         <value>//*[normalize-space(.)='History Akseptasi dan Disposisi']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessdetail/div/div/div/div[3]/form/div/h3</value>
-      <webElementGuid>2205e25b-8739-47bd-8b50-c0d1690c1ddf</webElementGuid>
+      <value>//*[normalize-space(.)='History Akseptasi dan Disposisi']</value>
+      <webElementGuid>d288b90e-2cb7-4466-828f-ecb351022227</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

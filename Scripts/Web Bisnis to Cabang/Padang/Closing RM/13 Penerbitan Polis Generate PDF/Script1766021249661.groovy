@@ -118,3 +118,5 @@ if (actualStatus2 == expectedStatus2) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus2)
 }
 
+WebUI.closeBrowser()
+
