@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(null, FailureHandling.STOP_ON_FAILURE)
 WebUI.closeBrowser()
+WebUI.closeBrowser()
+WebUI.closeBrowser()
