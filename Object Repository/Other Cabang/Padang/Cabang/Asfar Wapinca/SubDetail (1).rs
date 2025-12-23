@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SubDetail</name>
+   <name>SubDetail (1)</name>
    <tag></tag>
    <elementGuidId>b07846be-0830-4cc5-9f05-21fa8cc26756</elementGuidId>
    <selectorCollection>

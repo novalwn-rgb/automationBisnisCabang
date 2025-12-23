@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Ap
 >>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/StatusPolis InforceSigner')
+TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/StatusPolis InforceSigner')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -62,7 +62,7 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/SubDetail'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SubDetail (1)'))
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/SecRemarks'), 0)
 

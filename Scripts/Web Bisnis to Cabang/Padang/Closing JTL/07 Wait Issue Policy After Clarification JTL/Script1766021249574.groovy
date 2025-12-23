@@ -64,6 +64,8 @@ WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
 WebUI.setText(findTestObject('Cabang/CI_Number'), '11901112000599') // CI Number Atas OJS
 
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Dropdown PemutusAkhir'), 0)
+
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Dropdown PemutusAkhir'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/PilihOJS'))

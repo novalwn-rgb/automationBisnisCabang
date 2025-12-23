@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
 
-<<<<<<< HEAD
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'm.asfar')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
@@ -39,7 +38,7 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/StatusPolis InforceSigner')
+TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/StatusPolis InforceSigner')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -66,54 +65,6 @@ WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/S
 WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/inputRemark'), 'Lanjut ke Abi')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/Btn Approve'))
-=======
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'riska.amelia')
-
-WebUI.click(findTestObject('BusinessRM/buttonEnter'))
-
-WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
-
-WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
-
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Menu PenerbitanPolis'))
-
-WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
-
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Approval'))
-
-// Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/StatusPolis InforceSigner')
-
-WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
-
-WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
-
-String actualStatus = WebUI.getText(statusObject).trim()
-
-println('✅ Status Penerbitan Polis : ' + actualStatus)
-
-String expectedStatus = 'Waiting inforce by Signer'
-
-WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
-
-if (actualStatus == expectedStatus) {
-    println('Status Persetujuan Sesuai: ' + actualStatus)
-} else {
-    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
-}
-
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/SubDetail'))
-
-WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/SecRemarks'), 0)
-
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/inputRemark'), 'Lanjut ke Abi')
-
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Btn Approve'))
->>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
