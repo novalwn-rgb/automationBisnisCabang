@@ -58,7 +58,7 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SubDetail'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SubDetail1'))
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SecRemarks'), 0)
 

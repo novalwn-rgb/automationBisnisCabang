@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PilihOJS</name>
+   <tag></tag>
+   <elementGuidId>b0fd24cf-fa3f-4601-a700-bc4890f5f023</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'ng-option')]//span[normalize-space()='OJS']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'ng-option')]//span[normalize-space()='OJS']</value>
+      <webElementGuid>95b4ee91-8b62-4274-8a70-02aba4e9b0b7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

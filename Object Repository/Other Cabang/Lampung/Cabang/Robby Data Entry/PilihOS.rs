@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PilihOS</name>
+   <tag></tag>
+   <elementGuidId>396e1ac6-fe95-489d-b5be-88f7e1912d0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(@class,'ng-option')]//span[normalize-space()='OS']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(@class,'ng-option')]//span[normalize-space()='OS']</value>
+      <webElementGuid>b3e9af92-2cde-4715-a7b2-895c062ade24</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

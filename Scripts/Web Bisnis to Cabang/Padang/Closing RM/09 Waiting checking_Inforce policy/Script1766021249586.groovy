@@ -66,7 +66,7 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Dropdown Pemutu
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pilih PemutusAkhir1'))
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Signer')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Asfar')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Send to Signer By OJS'))
 

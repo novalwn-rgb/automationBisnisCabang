@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pilih PemutusAk
 //WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), 'OS')
 //
 //WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pemutus Akhir By OJS'), Keys.chord(Keys.ENTER))
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Signer')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Asfar')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Send to Signer By OJS'))
 

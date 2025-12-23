@@ -77,7 +77,7 @@ def dropdownObject3 = findTestObject('BusinessRM/StatusPenutupan')
 
 WebUI.selectOptionByLabel(dropdownObject3, 'New', false)
 
-WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'CAPTIVE')
+WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'CAPTIVE1')
 
 WebUI.click(findTestObject('BusinessRM/lewatiPeriode'))
 

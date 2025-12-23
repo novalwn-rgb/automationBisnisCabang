@@ -16,9 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
 
@@ -69,23 +68,12 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), 'Lor
 
 WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), Keys.chord(Keys.ENTER))
 
-<<<<<<< HEAD
 WebUI.scrollToElement(findTestObject('Underwriting/Approve TMO/inputLimit'), 0)
-=======
-WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
->>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
 
-<<<<<<< HEAD
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
-=======
-WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
->>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
 
-//WebUI.setText(findTestObject('Underwriting/Approve TMO/inputLimit'), 'Junior Team Leader')
-//
-//WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecSubjectivity'), 0)
 
 //Tambah Data Subjectivity
@@ -100,6 +88,7 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Su
 
 WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject1'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
@@ -115,15 +104,16 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/Date2'), '12/18/2025')
 
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Subjectivity 2')
 
-WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/ACER/Downloads/Sample Dokumen/Monitoring Akseptasi COB.xlsx')
 
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/Monitoring Akseptasi COB.xlsx')
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject2'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/10/2025')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/22/2025')
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/Sec DokUnderwriting'), 0)
 
@@ -133,8 +123,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahUnder'))
 
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputNamaDokUnder'), 'Dokumen test 1')
 
-WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
 
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/Legal Consent.docx')
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendUnder1'))
 
 // Spreading of Risk
@@ -210,18 +201,13 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_Sp
 WebUI.click(findTestObject('Underwriting/Approve TMO/Spreding of Risk/BtnKIRIM8'))
 
 // Status Akseptasi
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'), 0)
+
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih Akseptasi4'))
 
-<<<<<<< HEAD
-//WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 'Process')
-//
-//WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('Underwriting/Approve TMO/buttonSubmit'))
-=======
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnSubmit'))
->>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
@@ -230,5 +216,19 @@ WebUI.acceptAlert()
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
+
+// Case Error
+//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown FilterStatusPengajuan'))
+//
+//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih StatusPengajuan'))
+//
+//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Btn CariFilter'))
+//
+//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/LastSubTMOFilter'))
+//
+//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecAksep Filter'), 0)
+
+//
 
 WebUI.closeBrowser()
+

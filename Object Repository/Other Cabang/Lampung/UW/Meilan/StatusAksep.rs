@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StatusAksep</name>
+   <tag></tag>
+   <elementGuidId>478ebc0a-8ae5-4261-9e56-124e2055f845</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;selectAcceptation&quot;]//input[@type=&quot;text&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;selectAcceptation&quot;]//input[@type=&quot;text&quot;]</value>
+      <webElementGuid>3948ccd8-90ff-41fb-a950-adefa6204815</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

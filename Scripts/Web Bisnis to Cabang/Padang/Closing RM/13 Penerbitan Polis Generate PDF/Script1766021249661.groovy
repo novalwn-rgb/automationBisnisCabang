@@ -89,6 +89,8 @@ WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Keterangan'), 'Send')
 
 WebUI.uploadFile(findTestObject('Cabang/Bisnis Polis/AttachFilePolis'), 'C:/Users/ACER/Downloads/Sample Dokumen/BN57673UNDFL-0202SMG0725..pdf')
 
+//WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/TTECH-0251/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+
 WebUI.click(findTestObject('Cabang/Bisnis Polis/BtnSave'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)

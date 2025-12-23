@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'riska.amelia')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'm.asfar')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,15 +31,11 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-<<<<<<< HEAD
-WebUI.click(findTestObject('null'))
-=======
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Approval'))
->>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/Menu Approval'))
 
 // Verify Status Penerbitan Polis
 TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/StatusPolis InforceSigner')
@@ -62,13 +58,13 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SubDetail (1)'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SubDetail1'))
 
-WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/SecRemarks'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/SecRemarks'), 0)
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/inputRemark'), 'Lanjut ke Abi')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/inputRemark'), 'Lanjut ke Abi')
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Btn Approve'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Asfar Wapinca/Btn Approve'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
