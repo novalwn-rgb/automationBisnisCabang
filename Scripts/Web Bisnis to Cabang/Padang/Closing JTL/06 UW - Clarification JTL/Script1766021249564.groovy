@@ -63,6 +63,7 @@ if (actualStatus == expectedStatus) {
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail2'))
 
 //WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 0)
+<<<<<<< HEAD
 WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
 WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Disposisi'), Keys.chord(Keys.ENTER))
@@ -77,6 +78,16 @@ WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/Btn Closing Instr
 
 WebUI.click(findTestObject('Underwriting/Approve JTL/Btn Closing Instruction2'))
 
+=======
+
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/ClarificationInput Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+
+WebUI.delay(5)
+
+//WebUI.click(findTestObject('Underwriting/Approve JTL/Btn Closing Instruction2'))
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()

@@ -6,12 +6,21 @@
    <UUID>5e4a3698-6d36-43f7-8def-74b22f063fee</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.3.1</createdVersion>
+<<<<<<< HEAD
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.3.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\ACER\Katalon Studio\automationBisnisCabang\Bisnis Marketing.prj</projectFileLocation>
+=======
+   <freeLicense>true</freeLicense>
+   <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.4.2</modifiedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\TTECH-0251\Katalon Studio\automationBisnisCabang-master\Bisnis Marketing.prj</projectFileLocation>
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
