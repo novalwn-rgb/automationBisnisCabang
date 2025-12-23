@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Back to TMO</name>
+   <tag></tag>
+   <elementGuidId>c8a28886-24a4-405d-a160-6b991201d732</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='button'])[34]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.DivTableContainer.DivTableContainerAcceptation.ng-star-inserted > table.TableListDetailsAttachment > tbody > tr.ng-star-inserted > td:nth-of-type(6) > div.DivMultipleLabelAttachment > label.LabelAttachment.ng-star-inserted > input.ButtonDeleteRound</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Masukkan Nama Document -&quot;i] >> internal:label=&quot;&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7bd0ad25-b59a-437b-9033-7b3864fed106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5255b92e-7f24-4779-9c1e-dc2fe9316dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonDeleteRound</value>
+      <webElementGuid>f7ed1e9e-9f7b-43ac-90d9-5f53de1d55e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;divMainDashboard&quot;)/form[@class=&quot;ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;DivTableContainer DivTableContainerAcceptation ng-star-inserted&quot;]/table[@class=&quot;TableListDetailsAttachment&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[6]/div[@class=&quot;DivMultipleLabelAttachment&quot;]/label[@class=&quot;LabelAttachment ng-star-inserted&quot;]/input[@class=&quot;ButtonDeleteRound&quot;]</value>
+      <webElementGuid>ca831338-db74-4d6e-ba7f-4ea4e7f6d4f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='button'])[34]</value>
+      <webElementGuid>dafc5f1f-2054-4f02-ac03-6b5a90e3329b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='divMainDashboard']/form/div[14]/table/tbody/tr/td[6]/div/label[3]/input</value>
+      <webElementGuid>c49ce0a0-10d4-49ce-adb6-ca4d86791bdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/table/tbody/tr/td[6]/div/label[3]/input</value>
+      <webElementGuid>53ad6346-1850-4bdd-8949-b681b556cc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'button']</value>
+      <webElementGuid>5928614a-1798-48bf-bc4d-cadc71e37c5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

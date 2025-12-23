@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_KetCovering</name>
+   <tag></tag>
+   <elementGuidId>c81bac1b-2bf8-463d-956d-4df72a96a299</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3) > div.DivForm.ng-star-inserted > input.ng-valid.ng-dirty.ng-touched</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>input[type=&quot;text&quot;] >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>bf41a52c-8295-400e-9fb1-88d3e93547d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>02ef8c65-d865-4586-9dd9-d33fbd03ca83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-valid ng-dirty ng-touched</value>
+      <webElementGuid>743c4fa8-0ae0-4f76-84d4-c6bb17c47f0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DivCOBSubmissionBusiness&quot;)/div[@class=&quot;DivContainerVertical&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;DivTableContainer DivTableDocument&quot;]/table[@class=&quot;DivLetterTable TableListDetailsAttachment TableForm&quot;]/tbody[1]/tr[@class=&quot;ng-star-inserted&quot;]/td[3]/div[@class=&quot;DivForm ng-star-inserted&quot;]/input[@class=&quot;ng-valid ng-dirty ng-touched&quot;]</value>
+      <webElementGuid>7c25728f-f4cd-4cdb-aa9c-d58d7a4aa7c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[3]</value>
+      <webElementGuid>5b402f7e-37db-484f-8aac-9d67ef3721d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='DivCOBSubmissionBusiness']/div/div[6]/div[3]/table/tbody/tr/td[3]/div/input</value>
+      <webElementGuid>959ce98f-fed0-4ee0-ae90-695c35036263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/input</value>
+      <webElementGuid>53e14ec0-f767-4908-8ae0-3d420c04bb7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>72a11c60-ade9-482b-92ec-373979efaca9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

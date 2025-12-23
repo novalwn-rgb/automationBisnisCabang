@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecAttetment</name>
+   <tag></tag>
+   <elementGuidId>864a957b-09e2-4436-a6ad-4810fd8d8340</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/thead/tr/th[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/thead/tr/th[3]</value>
+      <webElementGuid>749a028c-2d7a-4a20-8b46-608d2aba5f1f</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

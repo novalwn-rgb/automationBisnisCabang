@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NextSubList</name>
+   <tag></tag>
+   <elementGuidId>b111dcd7-7c45-4bcd-9dfe-8e408b7b0fd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/app-tablecontrolinclude/div/div[1]/div[3]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/app-tablecontrolinclude/div/div[1]/div[3]/input</value>
+      <webElementGuid>d66d04ec-71e9-429c-adb8-55d51cbdc96a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

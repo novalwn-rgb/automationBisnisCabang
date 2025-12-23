@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputSubNumber</name>
+   <tag></tag>
+   <elementGuidId>f18f5c11-5dbf-4e6f-a536-dd6d540bb7a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessinsert/div/div/div[1]/form/div/fieldset/div/div[1]/div[1]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessinsert/div/div/div[1]/form/div/fieldset/div/div[1]/div[1]/input[1]</value>
+      <webElementGuid>619f246c-a818-44f8-98be-54195d125ed6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

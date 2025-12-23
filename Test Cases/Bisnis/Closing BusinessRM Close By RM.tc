@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Closing BusinessRM Close By RM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90c99279-ff07-4fef-b832-40df335ddc72</testCaseGuid>
+</TestCaseEntity>

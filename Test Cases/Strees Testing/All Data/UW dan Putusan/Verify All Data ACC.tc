@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify All Data ACC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e26ea3d7-3f88-444c-97b1-ca8c85ffb8a1</testCaseGuid>
+</TestCaseEntity>
