@@ -40,6 +40,8 @@ WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Aksep COB'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Submission'))
 
+WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
+
 
 
 //WebUI.click(findTestObject('BusinessRM/tambahData'))

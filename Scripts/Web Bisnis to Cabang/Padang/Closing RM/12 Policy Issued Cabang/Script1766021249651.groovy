@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu Pen
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu Monitoring'))
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/InputStatusPenerbitan'), 'Policy issued')
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Dropdown StatusPenerbitanPolis'))
 
-WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/InputStatusPenerbitan'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Pilih StatusPolis')) // Policy issued
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/ButtonSearch Monitoring'))
 

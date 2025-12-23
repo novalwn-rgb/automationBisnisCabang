@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'sekar.ayuni')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'tedi.handika')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -34,13 +34,12 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Underwriting/Menu/Menu COB'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Akseptasi COB'))
 
-WebUI.click(findTestObject('Underwriting/Menu/SubMenu Approval'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
-WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/NextSubList'))
-
-WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastNextSubNumber'))
+//WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastNext'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Dashboard/lastNextSubNumber'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
@@ -58,88 +57,77 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/Kapasitas Treaty/inputSur
 
 WebUI.setText(findTestObject('Underwriting/Approve TMO/Kapasitas Treaty/inputRICommSurplus'), '20')
 
-WebUI.scrollToElement(findTestObject('Underwriting/BrinsToUW/Sekar/InputDisposisi'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Disposisi'), 0)
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/iframe_Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.delay(1)
 
-WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Sekar/iframe_Disposisi'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/iframe_Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Disposisi'), Keys.chord(Keys.ENTER))
 
-WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Sekar/iframe_Putusan'), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.scrollToElement(findTestObject('Underwriting/BrinsToUW/Sekar/InputLimit'), 0)
+WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputLimit'), 'Junior Team Leader')
+WebUI.scrollToElement(findTestObject('Underwriting/Approve TMO/inputLimit'), 0)
 
-WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
 
-WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
+
+//WebUI.setText(findTestObject('Underwriting/Approve TMO/inputLimit'), 'Junior Team Leader')
+//
+//WebUI.sendKeys(findTestObject('Underwriting/Approve TMO/inputLimit'), Keys.chord(Keys.ENTER))
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecSubjectivity'), 0)
 
 //Tambah Data Subjectivity
 //Dok 1
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnTambahSubject'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahSubject'))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectivityNote'), 'Dokumen test 1')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectivityNote'), 'Dokumen Subject 1')
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/Date1'), '12/10/2025')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/Date1'), '12/18/2025')
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectKet'), 'Dokumen Sample 1')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Subjectivity 1')
 
-WebUI.uploadFile(findTestObject('Underwriting/BrinsToUW/Sekar/AttachSubject1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendSubject1'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject1'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
 //Dok 2
-WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahSubject'))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectivityNote'), 'Dokumen test 2')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectivityNote'), 'Dokumen Subject 2')
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/Date2'), '11/19/2025')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/Date2'), '12/18/2025')
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectKet'), 'Dokumen Sample 2')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputSubjectKet'), 'Subjectivity 2')
 
-//WebUI.uploadFile(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/Attach2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendSubject2'))
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachSubject2'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
-WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.acceptAlert()
-
-//Dok 3
-WebUI.click(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/TambahSubject'))
-
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectivityNote'), 'Dokumen test 3')
-
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/Date3'), '11/19/2025')
-
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputSubjectKet'), 'Dokumen Sample 3')
-
-WebUI.uploadFile(findTestObject('Underwriting/BrinsToUW/Sekar/AttachSubject3'), 'C:/Users/ACER/Downloads/Sample Dokumen/Legal Consent.docx')
-
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendSubject3'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendSubject2'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/DateValidity'), '12/10/2025')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/DateValidity'), '12/10/2025')
 
-WebUI.scrollToElement(findTestObject('Underwriting/Dokumen/Sec DokUnderwriting'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/Sec DokUnderwriting'), 0)
 
 //Upload Dok Underwriting
 //Dok 1
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnTambahUnder'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/BtnTambahUnder'))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/InputNamaDokUnder'), 'Dokumen test 1')
+WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/InputNamaDokUnder'), 'Dokumen test 1')
 
-WebUI.uploadFile(findTestObject('Underwriting/BrinsToUW/Sekar/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
+WebUI.uploadFile(findTestObject('Other Cabang/Padang/UW/Tedi/AttachUnder1'), 'C:/Users/ACER/Downloads/Sample Dokumen/samplepptx-2-1 (3)-1-1 (3).pptx')
 
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendUnder1'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/SendUnder1'))
 
 // Spreading of Risk
 // TSI
@@ -149,8 +137,6 @@ WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/PremiSoR'), '5000000'
 WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/KetSoR'), 'cicilan bulanan')
 
 WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/SendSoR1'))
-
-//WebUI.delay(10)
 
 // TSI Share BRINS
 WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_TSI Share Brins1'), '120000000')
@@ -216,13 +202,14 @@ WebUI.setText(findTestObject('Underwriting/Approve TMO/Spreding of Risk/input_Sp
 WebUI.click(findTestObject('Underwriting/Approve TMO/Spreding of Risk/BtnKIRIM8'))
 
 // Status Akseptasi
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'))
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'))
 
-WebUI.setText(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'), 'Process')
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih Akseptasi4'))
 
-WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Sekar/StatusAksep'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnSubmit'))
+//WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 'Process')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Underwriting/Approve TMO/buttonSubmit'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

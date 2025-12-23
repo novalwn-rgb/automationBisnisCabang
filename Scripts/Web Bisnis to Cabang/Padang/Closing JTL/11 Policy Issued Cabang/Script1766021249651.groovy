@@ -36,6 +36,8 @@ WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 //WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu PenerbitanPolis'))
 
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu Monitoring'))
+
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Dropdown StatusPenerbitanPolis'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Pilih StatusPolis')) // Policy issued
