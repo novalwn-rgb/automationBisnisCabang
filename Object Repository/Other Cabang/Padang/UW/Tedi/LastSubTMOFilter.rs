@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastDetailDisposisi</name>
+   <name>LastSubTMOFilter</name>
    <tag></tag>
-   <elementGuidId>052f9f1a-5f19-4ad1-b56e-c5912ec3b9a0</elementGuidId>
+   <elementGuidId>70ea5beb-a42d-401e-b913-9100c12cc92b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[12]/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>5f4ca5a7-923c-4627-a667-1e6ece529720</webElementGuid>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinesslist/div/div/div/div/table/tbody/tr[12]/td[2]</value>
+      <webElementGuid>ec5182aa-729a-4077-9d81-fa9aea63b4b2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

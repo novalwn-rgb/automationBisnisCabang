@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastDetailDisposisi</name>
+   <name>Pilih StatusPengajuan</name>
    <tag></tag>
-   <elementGuidId>052f9f1a-5f19-4ad1-b56e-c5912ec3b9a0</elementGuidId>
+   <elementGuidId>f382b71d-5be9-4904-abdf-64eb1fd4db44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>//div[@role='option']//span[normalize-space()='All']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>5f4ca5a7-923c-4627-a667-1e6ece529720</webElementGuid>
+      <value>//div[@role='option']//span[normalize-space()='All']</value>
+      <webElementGuid>d3bd4834-7b3b-4381-a3cb-1360911159ab</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

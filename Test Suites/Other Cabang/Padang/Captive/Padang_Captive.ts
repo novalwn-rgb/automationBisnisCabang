@@ -35,6 +35,16 @@
    <testCaseLink>
       <guid>b2553837-dee1-4eea-870e-adcb5d8a9b72</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/04 Disposition OJS</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ca539f8-36dc-4ea7-9923-b41fd0297fe4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+=======
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/04 Disposition OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
@@ -43,6 +53,7 @@
       <guid>5ca539f8-36dc-4ea7-9923-b41fd0297fe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/05 Wait Issue Policy By Windi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

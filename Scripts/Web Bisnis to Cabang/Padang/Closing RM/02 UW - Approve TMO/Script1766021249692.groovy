@@ -69,9 +69,17 @@ WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), 'Lor
 
 WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/iframe_Putusan'), Keys.chord(Keys.ENTER))
 
+<<<<<<< HEAD
 WebUI.scrollToElement(findTestObject('Underwriting/Approve TMO/inputLimit'), 0)
-
+=======
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
+
+<<<<<<< HEAD
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Limit'))
+=======
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/PilihLimit1'))
 
@@ -206,10 +214,14 @@ WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown Akseptasi'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih Akseptasi4'))
 
+<<<<<<< HEAD
 //WebUI.setText(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), 'Process')
 //
 //WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Tedi/StatusAksep'), Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('Underwriting/Approve TMO/buttonSubmit'))
+=======
+WebUI.click(findTestObject('Underwriting/BrinsToUW/Sekar/BtnSubmit'))
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang.git
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

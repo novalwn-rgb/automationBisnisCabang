@@ -17,23 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//test
-WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
-
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'abi.faridudzaman')
-
-WebUI.click(findTestObject('BusinessRM/buttonEnter'))
-
-WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.acceptAlert()
-
-WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
-
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-//end
-//WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu Monitoring'))
@@ -42,9 +27,6 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Dropdown
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Pilih StatusPolis')) // Policy issued
 
-//WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/InputStatusPenerbitan'), 'Policy issued')
-//
-//WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/InputStatusPenerbitan'), Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/ButtonSearch Monitoring'))
 
 // Verify Status Penerbitan Polis

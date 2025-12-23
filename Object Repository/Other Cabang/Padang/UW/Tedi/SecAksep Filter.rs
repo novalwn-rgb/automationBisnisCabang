@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastDetailDisposisi</name>
+   <name>SecAksep Filter</name>
    <tag></tag>
-   <elementGuidId>052f9f1a-5f19-4ad1-b56e-c5912ec3b9a0</elementGuidId>
+   <elementGuidId>863fff12-9673-48b1-bb6f-3ea3b5658d6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>//label[normalize-space()='Akseptasi']/ancestor::div[contains(@class,'DivForm')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>5f4ca5a7-923c-4627-a667-1e6ece529720</webElementGuid>
+      <value>//label[normalize-space()='Akseptasi']/ancestor::div[contains(@class,'DivForm')]</value>
+      <webElementGuid>1b0cb1e3-295e-4111-932b-d6cc0d8f605c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

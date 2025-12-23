@@ -52,3 +52,5 @@ if (actualStatus == expectedStatus) {
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/LastSubNum Monitoring'))
 
+WebUI.closeBrowser()
+

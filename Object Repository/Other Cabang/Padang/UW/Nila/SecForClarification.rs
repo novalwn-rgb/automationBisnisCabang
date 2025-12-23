@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>AddDok</name>
+   <name>SecForClarification</name>
    <tag></tag>
-   <elementGuidId>62559a2a-8b7f-4d16-b69b-0c0d36795329</elementGuidId>
+   <elementGuidId>d5aa89df-4847-4091-84ae-618ee57b8154</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/tbody/tr/td[4]/div/input</value>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-cobsubmissionbusinessupdate/div/div/div/table/tbody/tr/td[4]/div/input</value>
-      <webElementGuid>ea583fd7-34a2-4da1-acf3-f6e9f26bc747</webElementGuid>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[13]/h3</value>
+      <webElementGuid>95e1ea5b-461d-4216-936b-1015525e5a49</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

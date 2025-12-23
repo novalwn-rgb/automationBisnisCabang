@@ -129,7 +129,7 @@ WebUI.acceptAlert()
 WebUI.click(findTestObject('BusinessRM/tambahDok'))
 WebUI.setText(findTestObject('BusinessRM/namaDok'), 'Dokumen Sample')
 
-WebUI.uploadFile(findTestObject('BusinessRM/AddDok'), 'C:/Users/ACER/Downloads/Sample Dokumen/sample2.jpg')
+WebUI.uploadFile(findTestObject('BusinessRM/New/AddDok'), 'C:/Users/ACER/Downloads/Sample Dokumen/sample2.jpg')
 
 WebUI.click(findTestObject('BusinessRM/buttonAjukan'))
 

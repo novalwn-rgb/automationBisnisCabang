@@ -38,6 +38,46 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
+<<<<<<< HEAD
+////WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
+//WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
+//
+//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
+//
+//WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
+//
+//WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/InputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Nila/InputDisposisi'), Keys.chord(Keys.ENTER))
+//
+//WebUI.setText(findTestObject('Other Cabang/Padang/UW/Nila/InputPutusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/UW/Nila/InputPutusan'), Keys.chord(Keys.ENTER))
+//
+//WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
+//
+//WebUI.delay(10)
+//
+//WebUI.click(findTestObject('Underwriting/Approve JTL/Btn Closing Instruction1'))
+//
+//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.acceptAlert()
+//
+//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.acceptAlert()
+
+// Case Error
+WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
+
+WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
+
+WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
+
+WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
+//
+=======
 //WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
 
@@ -66,6 +106,7 @@ WebUI.acceptAlert()
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
 
 WebUI.closeBrowser()
 

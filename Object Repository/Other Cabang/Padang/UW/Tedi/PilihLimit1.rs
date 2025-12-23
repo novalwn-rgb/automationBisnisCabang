@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@role='option']//span[normalize-space()='Team Leader']</value>
+         <value>//div[@role='option']//span[normalize-space()='Junior Team Leader']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@role='option']//span[normalize-space()='Team Leader']</value>
-      <webElementGuid>31d77fbd-5b56-45db-9634-6a823b309a0f</webElementGuid>
+      <value>//div[@role='option']//span[normalize-space()='Junior Team Leader']</value>
+      <webElementGuid>9024fdce-0e17-4664-8a23-7c31e938e030</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

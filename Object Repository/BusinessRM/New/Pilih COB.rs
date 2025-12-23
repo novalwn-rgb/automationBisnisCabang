@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastDetailDisposisi</name>
+   <name>Pilih COB</name>
    <tag></tag>
-   <elementGuidId>052f9f1a-5f19-4ad1-b56e-c5912ec3b9a0</elementGuidId>
+   <elementGuidId>691101dd-b677-4d46-b308-935ecb13b065</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>//div[contains(@class,'ng-dropdown-panel')]//span[normalize-space()='PROPERTY']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>5f4ca5a7-923c-4627-a667-1e6ece529720</webElementGuid>
+      <value>//div[contains(@class,'ng-dropdown-panel')]//span[normalize-space()='PROPERTY']</value>
+      <webElementGuid>c12dc064-1630-4ed3-a96a-4d917a1d9c6a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

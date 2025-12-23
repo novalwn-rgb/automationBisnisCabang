@@ -35,7 +35,11 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Menu Penerbitan
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('null'))
+=======
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/Approval'))
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
 
 // Verify Status Penerbitan Polis
 TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Wait Inforce/StatusPolis InforceSigner')

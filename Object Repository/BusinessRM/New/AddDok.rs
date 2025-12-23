@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LastDetailDisposisi</name>
+   <name>AddDok</name>
    <tag></tag>
-   <elementGuidId>052f9f1a-5f19-4ad1-b56e-c5912ec3b9a0</elementGuidId>
+   <elementGuidId>62559a2a-8b7f-4d16-b69b-0c0d36795329</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
+         <value>//input[@type='file' and starts-with(@id,'upload-doc')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>5f4ca5a7-923c-4627-a667-1e6ece529720</webElementGuid>
+      <value>//input[@type='file' and starts-with(@id,'upload-doc')]</value>
+      <webElementGuid>11a9c1b0-866b-4af6-882c-e340e9a6cf61</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

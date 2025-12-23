@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[normalize-space()='Unit Kewenangan']/following::ng-select[1]</value>
+         <value>//ng-select[@id='selectLimitKewenangan']//div[contains(@class,'ng-select-container')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//label[normalize-space()='Unit Kewenangan']/following::ng-select[1]</value>
-      <webElementGuid>8e0ddbfa-2d91-45cb-8f3e-c2ed87c7a076</webElementGuid>
+      <value>//ng-select[@id='selectLimitKewenangan']//div[contains(@class,'ng-select-container')]</value>
+      <webElementGuid>8d17edef-d78d-42f4-8b5d-7626a603203e</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

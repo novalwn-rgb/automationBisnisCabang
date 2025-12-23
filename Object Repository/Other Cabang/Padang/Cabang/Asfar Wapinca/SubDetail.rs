@@ -7,6 +7,21 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr/td[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr/td[2]</value>
+      <webElementGuid>b229665f-512c-46bf-be6d-ab841ce5aa9a</webElementGuid>
+=======
          <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[6]/td[2]</value>
       </entry>
    </selectorCollection>
@@ -20,5 +35,6 @@
       <type>Main</type>
       <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[6]/td[2]</value>
       <webElementGuid>738d78c8-3ec5-4e58-a6b0-8c0cd457f957</webElementGuid>
+>>>>>>> branch 'master' of https://github.com/novalwn-rgb/automationBisnisCabang
    </webElementProperties>
 </WebElementEntity>
