@@ -20,7 +20,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'windi.julianti')
 

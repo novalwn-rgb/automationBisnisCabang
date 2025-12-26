@@ -68,31 +68,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4f0db1d-3cd3-4b12-a644-1bdcb952ab58</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/09 Waiting Inforce Signer</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>dc9dfbc4-7f6c-4738-aebb-17ec1eb3f6fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/10 Policy Inforce Signer</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/09 Policy Inforced by OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>951a1f5f-57d8-4cdf-bbed-bbeff8fdca28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/11 Policy Issued Cabang</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/10 Policy Issued Cabang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0b3269fc-23c9-42a9-b7c5-3c5d61bc0300</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/12 Penerbitan Polis Generate PDF</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/11 Penerbitan Polis Generate PDF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

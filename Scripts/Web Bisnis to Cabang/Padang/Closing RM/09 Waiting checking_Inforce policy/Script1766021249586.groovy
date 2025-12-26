@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.crm.web.brinesia.app/signin')
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'riska.amelia')
 
@@ -66,9 +66,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Dropdown Pemutu
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Pilih PemutusAkhir1'))
 
-WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Asfar')
+WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/inputRemark By OJS'), 'Lanjut ke Abi Police Administration')
 
-WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Send to Signer By OJS'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/BtnApprove'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

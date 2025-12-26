@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Arrays as Arrays
 
-WebUI.openBrowser('https://staging.tis.web.brinesia.app/')
+WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/ 
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.padang.rm')
 
@@ -77,7 +77,7 @@ def dropdownObject3 = findTestObject('BusinessRM/StatusPenutupan')
 
 WebUI.selectOptionByLabel(dropdownObject3, 'New', false)
 
-WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'NonCAPTIVE')
+WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'NonCaptive')
 
 WebUI.click(findTestObject('BusinessRM/lewatiPeriode'))
 
