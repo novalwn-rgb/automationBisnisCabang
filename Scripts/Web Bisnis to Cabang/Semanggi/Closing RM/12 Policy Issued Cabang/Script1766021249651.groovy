@@ -19,19 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Menu PenerbitanPolis'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Menu Monitoring'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Menu Monitoring'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Dropdown StatusPenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Dropdown StatusPenerbitanPolis'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Pilih StatusPolis') // Policy issued
-    )
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Pilih StatusPolis'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/ButtonSearch Monitoring'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/ButtonSearch Monitoring'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/LastStatusPolis Monitoring')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/LastStatusPolis Monitoring')
 
 WebUI.comment('--- Rilis Penerbitan Polis ---')
 
@@ -51,7 +50,7 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/LastSubNum Monitoring'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/LastSubNum Monitoring'))
 
 WebUI.closeBrowser()
 

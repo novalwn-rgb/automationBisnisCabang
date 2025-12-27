@@ -21,7 +21,7 @@ import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'rizky.umbas')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'miranti.cecilia')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -33,14 +33,16 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/UW/Menu/Menu Akseptasi COB'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/UW/Menu/Menu Akseptasi COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/UW/Menu/Menu Approval'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/UW/Menu/Menu Approval'))
+
+WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/UW/Rizky/LastStatusPolis2')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/UW/Miranti/LastStatusPolis2')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -60,17 +62,17 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/UW/Rizky/LastSubDetail2'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/UW/Miranti/LastSubDetail2'))
 
-WebUI.scrollToElement(findTestObject('Other Cabang/Jayapura/UW/Rizky/SecForClarification'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Semanggi/UW/Miranti/SecForClarification'), 0)
 
-WebUI.setText(findTestObject('Other Cabang/Jayapura/UW/Rizky/ClarificationInput Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Semanggi/UW/Miranti/ClarificationInput Disposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.sendKeys(findTestObject('Other Cabang/Jayapura/UW/Rizky/ClarificationInput Disposisi'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Semanggi/UW/Miranti/ClarificationInput Disposisi'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Other Cabang/Jayapura/UW/Rizky/ClarificationInput Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
+WebUI.setText(findTestObject('Other Cabang/Semanggi/UW/Miranti/ClarificationInput Putusan'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
 
-WebUI.sendKeys(findTestObject('Other Cabang/Jayapura/UW/Rizky/ClarificationInput Putusan'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Other Cabang/Semanggi/UW/Miranti/ClarificationInput Putusan'), Keys.chord(Keys.ENTER))
 
 WebUI.delay(5)
 

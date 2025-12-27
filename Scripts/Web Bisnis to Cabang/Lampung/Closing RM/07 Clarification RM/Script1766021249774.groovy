@@ -16,10 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
+WebUI.openBrowser('https://staging.business.web.brinesia.app/' // https://staging.tis.web.brinesia.app/ 
+    )
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'andyka.syaputra')
+WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.lampung.admin')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -27,18 +32,22 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
+WebUI.setText(findTestObject('BusinessRM/inputOTP'), '123456')
 
-WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu PenerbitanPolis'))
+WebUI.dismissAlert()
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu Submission'))
+WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
+
+WebUI.click(findTestObject('Other Cabang/Lampung/Bisnis/Menu Aksep COB'))
+
+WebUI.click(findTestObject('Other Cabang/Lampung/Bisnis/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstStatusPolis')
+TestObject statusObject = findTestObject('BusinessRM/FirstStatusPP')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -48,7 +57,7 @@ String actualStatus = WebUI.getText(statusObject).trim()
 
 println('✅ Status Penerbitan Polis : ' + actualStatus)
 
-String expectedStatus = 'Waiting issued policy'
+String expectedStatus = 'Waiting Clarification by RM'
 
 WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -58,11 +67,14 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstSubDetail'))
+WebUI.click(findTestObject('BusinessRM/FirstSubPP'))
 
-WebUI.setText(findTestObject('Cabang/inputRemarks'), 'Clarification RM')
+//WebUI.scrollToElement(findTestObject('BusinessRM/BtnClosing Instruction RM'), 0)
+WebUI.scrollToElement(findTestObject('BusinessRM/SecClarification'), 0)
 
-WebUI.click(findTestObject('Cabang/Heru/BtnClarification RM'))
+WebUI.setText(findTestObject('BusinessRM/InputClarification'), 'Done Clarification RM')
+
+WebUI.click(findTestObject('BusinessRM/BtnSubmit Clarification'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

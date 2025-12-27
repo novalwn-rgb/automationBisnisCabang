@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ng-dropdown-panel//span[normalize-space()='Abi Faridudzaman']</value>
+         <value>//ng-dropdown-panel//span[normalize-space()='Karisma Putri']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ng-dropdown-panel//span[normalize-space()='Abi Faridudzaman']</value>
-      <webElementGuid>05e7ca04-755d-4f44-b064-4e8016c5630e</webElementGuid>
+      <value>//ng-dropdown-panel//span[normalize-space()='Karisma Putri']</value>
+      <webElementGuid>f39fb44c-a7ad-43b6-97bb-0b2187868367</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

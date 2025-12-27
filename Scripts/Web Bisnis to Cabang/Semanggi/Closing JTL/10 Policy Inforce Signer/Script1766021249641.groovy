@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'bagas.untara')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'yusuf.nugroho')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,14 +31,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Menu Approved'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Menu Approved'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/LastStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/LastStatusPolis')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,11 +58,15 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/LastSubNum'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/LastSubNum'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Bagas Police Admin/Btn Issue Policy'))
+// script dikomen sementara karna CI Number harus di print di CARE dulu
+//WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Yusuf Police Admin/Btn Issue Policy'))
 
-WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.acceptAlert()
 
-WebUI.acceptAlert()
+WebUI.closeBrowser()
+// close diatas kalo CI Number udh di print diapus aja
 

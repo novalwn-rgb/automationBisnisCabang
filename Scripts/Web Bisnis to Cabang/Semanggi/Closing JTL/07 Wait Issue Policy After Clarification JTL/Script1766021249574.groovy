@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'andyka.syaputra')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'septian.adi')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,14 +31,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Menu PenerbitanPolis'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu Submission'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/FirstStatusPolis')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,21 +58,21 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstSubDetail'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/FirstSubDetail'))
 
 WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
-WebUI.setText(findTestObject('Cabang/CI_Number'), '127121824000144') // CI Number Atas Wapinca
+WebUI.setText(findTestObject('Cabang/CI_Number'), '125020224000041') // CI Number Atas Wapinca
 
-WebUI.scrollToElement(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Dropdown PemutusAkhir'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Dropdown PemutusAkhir'), 0)
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Dropdown PemutusAkhir'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Dropdown PemutusAkhir'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/PilihOJS'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/PilihOJS'))
 
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification JTL')
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/BtnSubmit By Data Entry'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/BtnSubmit By Data Entry'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

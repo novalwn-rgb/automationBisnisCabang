@@ -18,8 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
- 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'joko.patriantoro')
+
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'indra.ismail')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,14 +31,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/Menu Approval'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/StatusPolis InforceSigner')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/StatusPolis InforceSigner')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,13 +58,13 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/SubDetail1'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/SubDetail1'))
 
-WebUI.scrollToElement(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/SecRemarks'), 0)
+WebUI.scrollToElement(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/SecRemarks'), 0)
 
-WebUI.setText(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/inputRemark'), 'Lanjut ke Bagas')
+WebUI.setText(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/inputRemark'), 'Lanjut ke Yusuf')
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Joko Wapinca/Btn Approve'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Indra Wapinca/Btn Approve'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

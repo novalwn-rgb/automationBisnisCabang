@@ -18,9 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Arrays as Arrays
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
+WebUI.openBrowser('https://staging.business.web.brinesia.app/' // https://staging.tis.web.brinesia.app/
+    )
 
-WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.jayapura.rm')
+WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.semanggi.admin')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -36,11 +37,11 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu Aksep COB'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu PenerbitanPolis'))
 
 // Verify Status Penerbitan Polis
 TestObject statusObject1 = findTestObject('Cabang/Bisnis Polis/FirstStatusPolis')

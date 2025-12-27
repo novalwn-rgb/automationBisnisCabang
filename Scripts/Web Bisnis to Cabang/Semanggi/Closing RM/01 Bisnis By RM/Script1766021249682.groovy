@@ -20,7 +20,7 @@ import java.util.Arrays as Arrays
 
 WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/ 
 
-WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.jayapura.rm')
+WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.semanggi.admin')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -36,9 +36,9 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu Aksep COB'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu Submission'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('BusinessRM/TidakSub'))
 
 def dropdownObject1 = findTestObject('BusinessRM/Nama Relationship Manager')
 
-WebUI.selectOptionByLabel(dropdownObject1, 'COB Jayapura RM', false)
+WebUI.selectOptionByLabel(dropdownObject1, 'COB Semanggi RM', false)
 
 // Closing Instruction by RM
 WebUI.click(findTestObject('BusinessRM/Non-Captive'))

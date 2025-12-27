@@ -77,14 +77,14 @@
    <testCaseLink>
       <guid>951a1f5f-57d8-4cdf-bbed-bbeff8fdca28</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/10 Policy Issued Cabang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0b3269fc-23c9-42a9-b7c5-3c5d61bc0300</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing JTL/11 Penerbitan Polis Generate PDF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

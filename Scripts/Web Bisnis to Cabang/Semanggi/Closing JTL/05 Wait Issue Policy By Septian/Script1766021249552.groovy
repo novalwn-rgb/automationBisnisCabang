@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin' // https://staging.crm.web.brinesia.app/signin
+    )
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'andyka.syaputra')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'septian.adi')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,14 +32,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Menu PenerbitanPolis'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/Menu Submission'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/FirstStatusPolis')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,7 +59,7 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Andyka Data Entry/FirstSubDetail'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Septian Data Entry/FirstSubDetail'))
 
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'Clarification JTL')
 

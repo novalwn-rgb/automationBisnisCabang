@@ -17,9 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin' // https://staging.crm.web.brinesia.app/signin
+    )
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'fahrulman')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'ria.novriani')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -31,14 +32,14 @@ WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/Menu PenerbitanPolis'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/Menu PenerbitanPolis'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/Menu Disposisi'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/Menu Disposisi'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/LastStatusPolis')
+TestObject statusObject = findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/LastStatusPolis')
 
 WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
 
@@ -58,17 +59,21 @@ if (actualStatus == expectedStatus) {
     println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
 }
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/LastDetailDisposisi'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/LastDetailDisposisi'))
 
 WebUI.scrollToElement(findTestObject('Cabang/Disposisi/SecDisposisi'), 0)
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/DropdownDisposisi'))
+WebUI.setText(findTestObject('Cabang/Disposisi/PilihDisposisi'), 'Septian Adi Wibowo')
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/PilihNamaDisposisi1'))
+WebUI.sendKeys(findTestObject('Cabang/Disposisi/PilihDisposisi'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Andyka')
+//WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/DropdownDisposisi'))
+//
+//WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/PilihNamaDisposisi1'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Cabang/Fahrulman OJS/BtnSubmit Disposisi'))
+WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Septian')
+
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/BtnSubmit Disposisi'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

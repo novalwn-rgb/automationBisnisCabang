@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Arrays as Arrays
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/ 
+WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.semanggi.admin')
 
@@ -36,9 +36,9 @@ WebUI.dismissAlert()
 
 WebUI.click(findTestObject('BusinessRM/BurgerMenu'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu Aksep COB'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu Aksep COB'))
 
-WebUI.click(findTestObject('Other Cabang/Jayapura/Bisnis/Menu Submission'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Bisnis/Menu Submission'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('BusinessRM/TidakSub'))
 
 def dropdownObject1 = findTestObject('BusinessRM/Nama Relationship Manager')
 
-WebUI.selectOptionByLabel(dropdownObject1, 'COB Jayapura RM', false)
+WebUI.selectOptionByLabel(dropdownObject1, 'COB Semanggi RM', false)
 
 // Closing Instruction by JTL 
 WebUI.click(findTestObject('BusinessRM/inputCaptive'))
@@ -77,7 +77,7 @@ def dropdownObject3 = findTestObject('BusinessRM/StatusPenutupan')
 
 WebUI.selectOptionByLabel(dropdownObject3, 'New', false)
 
-WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'Captive')
+WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'BisnisCAPTIVE')
 
 WebUI.click(findTestObject('BusinessRM/lewatiPeriode'))
 

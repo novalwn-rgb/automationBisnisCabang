@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>08 Wait Issue Policy After Clarification RM</name>
+   <name>05 Wait Issue Policy By Septian</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0e155aff-4213-41b6-a0f4-5c6f08b85be4</testCaseGuid>
+   <testCaseGuid>5a9adec4-55f8-4a72-b179-34617bfcca81</testCaseGuid>
 </TestCaseEntity>
