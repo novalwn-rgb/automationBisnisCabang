@@ -47,8 +47,7 @@ Mobile.tap(findTestObject('Brinsmart/Dashboard/MenuAkseptasi COB'), 0)
 
 Mobile.tap(findTestObject('Brinsmart/Dashboard/SubMenuSubmit'), 0)
 
-Mobile.tap(findTestObject('Brinsmart/Dashboard/FirstSubList'), 0 //tes dulu xpath ini bisa dipakai kesemua tidak
-    )
+Mobile.tap(findTestObject('Brinsmart/Dashboard/FirstSubList'), 0) //tes dulu xpath ini bisa dipakai kesemua tidak
 
 Mobile.scrollToText('Closing Instruction', FailureHandling.STOP_ON_FAILURE)
 

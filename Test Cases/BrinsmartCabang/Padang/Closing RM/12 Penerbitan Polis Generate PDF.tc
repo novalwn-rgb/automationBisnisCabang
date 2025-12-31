@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12 Penerbitan Polis Generate PDF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3cd3c1c2-4f44-4ba5-8a88-0c7aa9622521</testCaseGuid>
+</TestCaseEntity>

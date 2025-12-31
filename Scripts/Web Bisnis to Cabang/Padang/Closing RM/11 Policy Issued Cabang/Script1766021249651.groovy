@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
+
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'abi.faridudzaman')
+
+WebUI.click(findTestObject('BusinessRM/buttonEnter'))
+
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
+
+WebUI.setText(findTestObject('Underwriting/Login/inputOTP'), '123456')
+
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/burgerMenu'))
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Menu PenerbitanPolis'))

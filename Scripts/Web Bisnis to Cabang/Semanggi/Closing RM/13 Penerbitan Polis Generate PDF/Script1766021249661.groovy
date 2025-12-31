@@ -68,7 +68,7 @@ WebUI.click(findTestObject('Cabang/Bisnis Polis/FirstSubList'))
 
 WebUI.scrollToElement(findTestObject('Cabang/Bisnis Polis/SecTabel Informasi'), 0)
 
-WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Alamat Pengiriman'), 'Padang Permai 54321')
+WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Alamat Pengiriman'), 'Semanggi Permai 54321')
 
 WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Covering'), 'approve')
 

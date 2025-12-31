@@ -43,7 +43,7 @@
       <guid>22e78fd2-67f1-4d4d-bee8-5bb0db581ce9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/05 Wait Issue Policy By Septian</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/05 Wait Issue Policy By Robby</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -84,14 +84,14 @@
    <testCaseLink>
       <guid>c4903d51-0397-473c-841a-4db4ff7344b5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/11 Policy Issued Cabang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>30f5df55-b1be-47be-ba69-235a24c7999e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/12 Penerbitan Polis Generate PDF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

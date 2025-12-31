@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Arrays as Arrays
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/' // https://staging.tis.web.brinesia.app/
-    )
+WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.semanggi.admin')
 
@@ -68,7 +67,7 @@ WebUI.click(findTestObject('Cabang/Bisnis Polis/FirstSubList'))
 
 WebUI.scrollToElement(findTestObject('Cabang/Bisnis Polis/SecTabel Informasi'), 0)
 
-WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Alamat Pengiriman'), 'Padang Permai 54321')
+WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Alamat Pengiriman'), 'Semanggi Permai 54321')
 
 WebUI.setText(findTestObject('Cabang/Bisnis Polis/input_Covering'), 'approve')
 

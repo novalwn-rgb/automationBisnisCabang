@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Other Cabang/Lampung/UW/Menu/Menu Akseptasi COB'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Menu/Menu Approval'))
 
-WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastNext'))
+WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Menu/NextList'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Dashboard/lastNextSubNumber'))
 
