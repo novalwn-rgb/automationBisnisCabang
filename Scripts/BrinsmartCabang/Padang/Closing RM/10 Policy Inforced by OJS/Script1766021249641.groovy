@@ -60,13 +60,10 @@ if (actualStatus == expectedStatus) {
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/LastSubNum'))
 
-// script dikomen sementara karna CI Number harus di print di CARE dulu
-//WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Btn Issue Policy'))
+WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Abi Police Admin/Btn Issue Policy'))
 
-//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.acceptAlert()
+WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
-// close diatas kalo CI Number udh di print diapus aja
-

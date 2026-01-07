@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin' // https://staging.crm.web.brinesia.app/signin
-    )
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'siti.azzahro')
 

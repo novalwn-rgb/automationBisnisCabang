@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputClarification</name>
+   <tag></tag>
+   <elementGuidId>b5522619-0509-405c-94c6-006704ad6b23</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[12]/fieldset/div/ckeditor/div/div/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessdetailunderwriting/div/div/form/div[12]/fieldset/div/ckeditor/div/div/div/div/p</value>
+      <webElementGuid>0b065d4c-ae13-460f-9d9c-29942ee758d5</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

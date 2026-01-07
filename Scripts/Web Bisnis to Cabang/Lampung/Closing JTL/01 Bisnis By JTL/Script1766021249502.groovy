@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Arrays as Arrays
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/' // https://staging.tis.web.brinesia.app/
-    )
+WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.lampung.admin')
 

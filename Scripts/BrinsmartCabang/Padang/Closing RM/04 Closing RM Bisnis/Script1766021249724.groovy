@@ -20,8 +20,17 @@ import java.util.Arrays as Arrays
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/ 
+System.setProperty('webdriver.chrome.driver', 'C:/Users/ACER/.katalon/packages/KSE-10.3.1/configuration/resources/drivers/chromedriver_win32/chromedriver.exe')
+
+WebDriver driver = new ChromeDriver()
+
+DriverFactory.changeWebDriver(driver)
+
+WebUI.navigateToUrl('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.padang.rm')
 

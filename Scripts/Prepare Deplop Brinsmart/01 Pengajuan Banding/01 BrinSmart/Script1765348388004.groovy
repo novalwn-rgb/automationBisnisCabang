@@ -69,7 +69,7 @@ Mobile.tap(findTestObject('Brinsmart/Page 1/Status Penutupan/android.widget.Text
 
 Mobile.scrollToText('Lanjutkan', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'lanjut13', 0)
+Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'BandingFinal2', 0)
 
 Mobile.hideKeyboard()
 
@@ -162,6 +162,12 @@ Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Brinsmart/BtnAjukan'), 0)
 
 Mobile.tap(findTestObject('Brinsmart/Btn BacktoHome'), 0)
+//Sementara
+//Mobile.tap(findTestObject('Brinsmart/Dashboard/FirstSubList'), 0)
+//
+//Mobile.scrollToText('Update', FailureHandling.STOP_ON_FAILURE)
+
+//end sementara
 
 Mobile.closeApplication()
 

@@ -21,7 +21,14 @@ import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
-WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
+//WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
+System.setProperty('webdriver.chrome.driver', 'C:/Users/ACER/.katalon/packages/KSE-10.3.1/configuration/resources/drivers/chromedriver_win32/chromedriver.exe')
+
+WebDriver driver = new ChromeDriver()
+
+DriverFactory.changeWebDriver(driver)
+
+WebUI.navigateToUrl('https://staging.underwriting.web.brinesia.app/')
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'm.alfath')
 
@@ -45,15 +52,6 @@ WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/NextSubList'))
 
 WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastSubList'))
 
-WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
-
-//All CheckBox
-WebUI.doubleClick(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
-
-WebUI.click(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
-
-WebUI.delay(10)
-
 WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
 
 WebUI.setText(findTestObject('Underwriting/BrinsToUW/Alfath/InputDisposisi'), 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
@@ -64,11 +62,9 @@ WebUI.setText(findTestObject('Underwriting/BrinsToUW/Alfath/InputPutusan'), 'Lor
 
 WebUI.sendKeys(findTestObject('Underwriting/BrinsToUW/Alfath/InputPutusan'), Keys.chord(Keys.ENTER))
 
-WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
+WebUI.delay(3)
 
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Underwriting/BtnDecision'))
+WebUI.click(findTestObject('Underwriting/BtnExtend'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

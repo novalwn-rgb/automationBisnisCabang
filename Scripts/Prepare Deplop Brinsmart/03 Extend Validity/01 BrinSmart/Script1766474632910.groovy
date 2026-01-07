@@ -69,7 +69,7 @@ Mobile.tap(findTestObject('Brinsmart/Page 1/Status Penutupan/android.widget.Text
 
 Mobile.scrollToText('Lanjutkan', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'lanjut13', 0)
+Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'ExtendValidity2', 0)
 
 Mobile.hideKeyboard()
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pilihAkseptasi1</name>
+   <tag></tag>
+   <elementGuidId>a75f5e2b-a1e5-43ed-942a-b1013ef05510</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ng-dropdown-panel//div[contains(@class,'ng-option')][.//span[normalize-space()='Clarification']]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ng-dropdown-panel//div[contains(@class,'ng-option')][.//span[normalize-space()='Clarification']]</value>
+      <webElementGuid>9d8a9503-2f22-407d-8da0-47516d46b897</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

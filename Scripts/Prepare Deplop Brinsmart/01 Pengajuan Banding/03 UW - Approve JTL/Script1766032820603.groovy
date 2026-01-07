@@ -56,9 +56,10 @@ WebUI.click(findTestObject('Underwriting/Approve TMO/Dashboard/lastSubList'))
 
 WebUI.scrollToElement(findTestObject('Underwriting/Subjectivity/Underwriting/Mira/SecSubjectivity'), 0)
 
-//CheckBox
+//All CheckBox
+WebUI.doubleClick(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
 
-WebUI.click(findTestObject('Underwriting/Checkbox1'))
+WebUI.click(findTestObject('Underwriting/AllcheckBoxSubjectivity'))
 
 WebUI.delay(10)
 

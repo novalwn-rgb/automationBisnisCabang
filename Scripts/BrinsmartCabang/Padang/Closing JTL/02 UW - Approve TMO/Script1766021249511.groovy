@@ -18,8 +18,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
+//WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
+System.setProperty('webdriver.chrome.driver', 'C:/Users/ACER/.katalon/packages/KSE-10.3.1/configuration/resources/drivers/chromedriver_win32/chromedriver.exe')
+
+WebDriver driver = new ChromeDriver()
+
+DriverFactory.changeWebDriver(driver)
+
+WebUI.navigateToUrl('https://staging.underwriting.web.brinesia.app/')
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'tedi.handika')
 

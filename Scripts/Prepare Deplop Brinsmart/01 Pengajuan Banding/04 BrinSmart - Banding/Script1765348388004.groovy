@@ -49,15 +49,17 @@ Mobile.tap(findTestObject('Brinsmart/Dashboard/SubMenuSubmit'), 0)
 
 Mobile.tap(findTestObject('Brinsmart/Dashboard/FirstSubList'), 0) //tes dulu xpath ini bisa dipakai kesemua tidak
 
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.scrollToText('Banding', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Brinsmart/FlowButton/Button - Banding'), 0)
 
 Mobile.scrollToText('Lanjutkan', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Brinsmart/Page 1/Department/PilihDepartemen'), 0)
-
-Mobile.tap(findTestObject('Brinsmart/Page 1/Department/android.widget.TextView - Fire  Engineering'), 0)
+//Mobile.tap(findTestObject('Brinsmart/Page 1/Department/PilihDepartemen'), 0)
+//
+//Mobile.tap(findTestObject('Brinsmart/Page 1/Department/android.widget.TextView - Fire  Engineering'), 0)
 
 Mobile.tap(findTestObject('Brinsmart/Page 1/BtnLanjutkan 1'), 0)
 
@@ -81,13 +83,15 @@ Mobile.tap(findTestObject('Brinsmart/Page 2/Frekuensi Claim/android.widget.TextV
 
 Mobile.tap(findTestObject('Brinsmart/Page 2/BtnLanjutkan 2'), 0)
 
+Mobile.scrollToText('Ajukan', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.setText(findTestObject('Brinsmart/Sample Dokumen/InputNoteMessage'), 'Lanjut Banding', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Brinsmart/BtnAjukan'), 0)
 
-Mobile.tap(findTestObject('Brinsmart/Btn BacktoHome'), 0)
+//Mobile.tap(findTestObject('Brinsmart/Btn BacktoHome'), 0)
 
 Mobile.closeApplication()
 

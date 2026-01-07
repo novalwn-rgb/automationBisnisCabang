@@ -70,9 +70,6 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Dropdown
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/PilihOJS'))
 
-//WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
-//
-//WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification JTL')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/BtnSubmit By Data Entry'))

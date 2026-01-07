@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;selectAcceptation&quot;]//input[@type=&quot;text&quot;]</value>
+         <value>//label[normalize-space()='Akseptasi']/following::ng-select[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;selectAcceptation&quot;]//input[@type=&quot;text&quot;]</value>
-      <webElementGuid>1585d8fa-7f3a-4bc4-8bb2-626bd77d59bb</webElementGuid>
+      <value>//label[normalize-space()='Akseptasi']/following::ng-select[1]</value>
+      <webElementGuid>d1a5bcad-fb0d-4282-bbe4-2c1b607e479d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

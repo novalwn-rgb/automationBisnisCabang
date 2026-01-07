@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>03 Bisnis RM After Update</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>60d85353-8c76-49c1-a8a2-e7dd1a1bfbca</testCaseGuid>
-</TestCaseEntity>

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ACER\\Downloads\\smart-staging.apk', false)
+Mobile.startApplication('C:\\Users\\ACER\\Downloads\\smart-staging (1).apk', false)
 
-Mobile.setText(findTestObject('Brinsmart/Login/InputEmail'), 'cob.jakarta1.admin', 0)
+Mobile.setText(findTestObject('Brinsmart/Login/InputEmail'), 'cob.padang.rm', 0)
 
 Mobile.hideKeyboard()
 
@@ -69,7 +69,7 @@ Mobile.tap(findTestObject('Brinsmart/Page 1/Status Penutupan/android.widget.Text
 
 Mobile.scrollToText('Lanjutkan', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'MobileToWeb47', 0)
+Mobile.setText(findTestObject('Brinsmart/Page 1/InputTertanggung'), 'MobileToWeb - Captive', 0)
 
 Mobile.hideKeyboard()
 
