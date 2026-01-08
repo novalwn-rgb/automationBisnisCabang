@@ -38,25 +38,26 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-//TestObject statusObject = findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS//StatusPolis Checking_Inforce')
-//
-//WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
-//
-//WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
-//
-//String actualStatus = WebUI.getText(statusObject).trim()
-//
-//println('✅ Status Penerbitan Polis : ' + actualStatus)
-//
-//String expectedStatus = 'Waiting checking / Inforce policy'
-//
-//WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
-//
-//if (actualStatus == expectedStatus) {
-//    println('Status Persetujuan Sesuai: ' + actualStatus)
-//} else {
-//    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
-//}
+TestObject statusObject = findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS//StatusPolis Checking_Inforce')
+
+WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
+
+WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
+
+String actualStatus = WebUI.getText(statusObject).trim()
+
+println('✅ Status Penerbitan Polis : ' + actualStatus)
+
+String expectedStatus = 'Waiting checking / Inforce policy'
+
+WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+if (actualStatus == expectedStatus) {
+    println('Status Persetujuan Sesuai: ' + actualStatus)
+} else {
+    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
+}
+
 WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/SubDetail Checking_Inforce'))
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/inputRemark By OJS'), 0)

@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
 WebUI.openBrowser('https://staging.underwriting.web.brinesia.app/')
 
@@ -38,7 +37,7 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Menu/Menu Approval'))
 
-WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
+//WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Ery/LastSubDetail1'))
 

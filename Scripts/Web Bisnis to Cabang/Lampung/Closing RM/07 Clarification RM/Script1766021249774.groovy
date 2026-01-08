@@ -21,8 +21,7 @@ import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.testobject.SelectorMethod as SelectorMethod
 
-WebUI.openBrowser('https://staging.business.web.brinesia.app/' // https://staging.tis.web.brinesia.app/ 
-    )
+WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
 WebUI.setText(findTestObject('BusinessRM/inputEmail'), 'cob.lampung.admin')
 

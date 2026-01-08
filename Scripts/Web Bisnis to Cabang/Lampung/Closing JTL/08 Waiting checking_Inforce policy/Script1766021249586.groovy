@@ -66,9 +66,9 @@ WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/Dropdown Pemut
 
 WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/Pilih PemutusAkhir1'))
 
-WebUI.setText(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/inputRemark By OJS'), 'Lanjut ke Siti')
+WebUI.setText(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/inputRemark By OJS'), 'Lanjut ke Karisma')
 
-WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/Send to Signer By OJS'))
+WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/Btn Approve'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 

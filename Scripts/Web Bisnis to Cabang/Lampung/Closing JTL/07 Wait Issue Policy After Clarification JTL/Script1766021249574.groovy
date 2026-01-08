@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
-WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'robby.fawaz')
+WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'karisma.putri')
 
 WebUI.click(findTestObject('BusinessRM/buttonEnter'))
 
@@ -62,8 +62,7 @@ WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Robby Data Entry/FirstSu
 
 WebUI.scrollToElement(findTestObject('Cabang/CI_Number'), 0)
 
-WebUI.setText(findTestObject('Cabang/CI_Number'), '120010124005401' // CI Number Atas Wapinca
-    )
+WebUI.setText(findTestObject('Cabang/CI_Number'), '12001081800199') // CI Number Atas OJS
 
 WebUI.scrollToElement(findTestObject('Other Cabang/Lampung/Cabang/Robby Data Entry/Dropdown PemutusAkhir'), 0)
 

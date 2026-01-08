@@ -71,7 +71,7 @@
       <guid>de8e727e-3495-484e-bc5c-599e00567509</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BrinsmartCabang/Lampung/Closing JTL/09 Policy Inforce Signer</testCaseId>
+      <testCaseId>Test Cases/BrinsmartCabang/Lampung/Closing JTL/09 Policy inforced by OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

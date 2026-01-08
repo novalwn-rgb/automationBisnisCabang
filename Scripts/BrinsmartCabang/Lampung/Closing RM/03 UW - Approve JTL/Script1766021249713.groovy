@@ -47,7 +47,7 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Menu/Menu Approval'))
 
-WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
+//WebUI.click(findTestObject('Underwriting/Approve JTL/Dashboard/LastNextSub'))
 
 WebUI.click(findTestObject('Other Cabang/Lampung/UW/Ery/LastSubDetail1'))
 

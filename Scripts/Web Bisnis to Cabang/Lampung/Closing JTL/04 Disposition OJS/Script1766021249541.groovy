@@ -64,9 +64,9 @@ WebUI.scrollToElement(findTestObject('Cabang/Disposisi/SecDisposisi'), 0)
 
 WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/DropdownDisposisi'))
 
-WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/PilihNamaDisposisi2'))
+WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/PilihNamaDisposisi1'))
 
-WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Robby')
+WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Karisma')
 
 WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/BtnSubmit Disposisi'))
 

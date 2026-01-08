@@ -12,87 +12,80 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>7618e4a9-af02-4f69-b283-4ea2418b2678</testSuiteGuid>
    <testCaseLink>
-      <guid>a0dfc1f2-ce27-48fe-a713-d1d99c7098e1</guid>
+      <guid>c27bbb9e-32ca-42c1-92f9-c295f2770d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/01 Bisnis By JTL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>caabf8a3-824a-4a6d-9f93-f7ad23faa92a</guid>
+      <guid>9c4bd29e-8ca3-427f-94ca-c43acd0756f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/02 UW - Approve TMO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>abe66f23-e11b-4a43-bd48-a20b19fbd707</guid>
+      <guid>f36646ab-7696-4777-a855-3f39659c079d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/03 UW - Closing JTL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5de94feb-1254-488d-8859-d8392c6f07d2</guid>
+      <guid>380b589c-11e0-4abe-8a5c-96c74677cb9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/04 Disposition OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>22e78fd2-67f1-4d4d-bee8-5bb0db581ce9</guid>
+      <guid>e166ddbf-4fef-4302-9c7e-d1e24f74fdb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/05 Wait Issue Policy By Robby</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/05 Wait Issue Policy By Karisma</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63418a7e-d2cf-4ed5-a81a-95949b6b8698</guid>
+      <guid>77af86cf-01e5-4d9c-bfc9-59e36936d6ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/06 UW - Clarification JTL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>43ead0a0-12f0-4c91-919c-7f26c5ec7301</guid>
+      <guid>1d25e7c3-2235-4559-921e-b5c2facd4c3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/07 Wait Issue Policy After Clarification JTL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>014b286b-a830-4985-a956-7c9f83fe2de4</guid>
+      <guid>32a5a3da-756d-4c6b-8465-118023476d77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/08 Waiting checking_Inforce policy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d92876dd-b082-4b1a-bffd-d0ed3caa1b96</guid>
+      <guid>038cc648-b4a1-4201-95da-245ec703fd74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/09 Waiting Inforce Signer</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/09 Policy inforced by OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cd3f797d-8db4-4ab1-8109-c8661a133164</guid>
+      <guid>fa1617f9-3649-4c3d-8337-7a7562a56103</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/10 Policy Inforce Signer</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/10 Policy Issued Cabang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4903d51-0397-473c-841a-4db4ff7344b5</guid>
+      <guid>541c5cea-0448-46d3-9fb1-f8b22275dc6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/11 Policy Issued Cabang</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>30f5df55-b1be-47be-ba69-235a24c7999e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/12 Penerbitan Polis Generate PDF</testCaseId>
+      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Closing JTL/11 Penerbitan Polis Generate PDF</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

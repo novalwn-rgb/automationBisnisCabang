@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin' // https://staging.crm.web.brinesia.app/signin
-    )
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'rizky.desyati')
 
@@ -65,9 +64,9 @@ WebUI.scrollToElement(findTestObject('Cabang/Disposisi/SecDisposisi'), 0)
 
 WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/DropdownDisposisi'))
 
-WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/PilihNamaDisposisi2'))
+WebUI.click(findTestObject('Other Cabang/Lampung/Cabang/Rizky OJS/PilihNamaDisposisi1'))
 
-WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Robby')
+WebUI.setText(findTestObject('Cabang/Disposisi/NoteDisposisi'), 'Disposisi ke Karisma')
 
 WebUI.click(findTestObject('Other Cabang/Semanggi/Cabang/Ria OJS/BtnSubmit Disposisi'))
 

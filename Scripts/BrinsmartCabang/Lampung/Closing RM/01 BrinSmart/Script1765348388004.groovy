@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Brinsmart/Dashboard/BtnTambah'), 0)
 
 Mobile.tap(findTestObject('Brinsmart/Page 1/RadioButton - Tidak'), 0)
 
-Mobile.tap(findTestObject('Brinsmart/Page 1/RadioButton - Captive'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Brinsmart/Page 1/RadioButton - Non Captive'), 0, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Brinsmart/Page 1/Sumber Bisnis/KlikSumberBisnis'), 0)
 
