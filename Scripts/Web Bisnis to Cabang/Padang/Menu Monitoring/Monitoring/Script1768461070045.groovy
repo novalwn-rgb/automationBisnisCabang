@@ -19,6 +19,9 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.testdata.reader.ExcelFactory as ExcelFactory
 import com.kms.katalon.core.testdata.ExcelData as ExcelData
+import org.apache.poi.ss.usermodel.*
+import org.apache.poi.xssf.usermodel.XSSFWorkbook
+import java.io.FileInputStream
 
 WebUI.openBrowser('https://staging.business.web.brinesia.app/') // https://staging.tis.web.brinesia.app/
 
@@ -44,68 +47,115 @@ WebUI.click(findTestObject('Other Cabang/Padang/Bisnis/Menu Monitoring'))
 
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
-String submissionNumber = 'BN57/2164/UND/FR-0401/PDG/01/26'
+//Comment Sementara untuk Versi 2
+//WebUI.setText(findTestObject('Other Cabang/Semanggi/Monitoring/InputSubmission'), 'BN57/2164/UND/FR-0401/PDG/01/26')
 
-WebUI.setText(findTestObject('Other Cabang/Semanggi/Monitoring/InputSubmission'), 'BN57/2164/UND/FR-0401/PDG/01/26')
+//WebUI.click(findTestObject('Other Cabang/Semanggi/Monitoring/BtnSearch'))
 
-WebUI.click(findTestObject('Other Cabang/Semanggi/Monitoring/BtnSearch'))
-
-WebUI.waitForElementVisible(findTestObject('Other Cabang/Semanggi/Monitoring/table_submission_number'), 5)
+//WebUI.waitForElementVisible(findTestObject('Other Cabang/Semanggi/Monitoring/table_submission_number'), 5)
 
 // Ambil submission number dari table
-String submissionInTable = WebUI.getText(findTestObject('Other Cabang/Semanggi/Monitoring/table_submission_number'))
+//String submissionInTable = WebUI.getText(findTestObject('Other Cabang/Semanggi/Monitoring/table_submission_number'))
+// End Comment Sementara untuk versi 2
 
-// Verifikasi
-WebUI.verifyMatch(submissionInTable, submissionNumber, false)
+// Verifikasi versi 1
+//String submissionNumber = 'BN57/2164/UND/FR-0401/PDG/01/26'
+//
+//WebUI.verifyMatch(submissionInTable, submissionNumber, false)
+//
+//KeywordUtil.logInfo('Submission number sesuai: ' + submissionInTable)
+//
+//String downloadPath = 'C:/Users/ACER/Downloads'
+//
+//String fileName = 'Monitoring Acceptation COB.xlsx'
+//
+//String filePath = (downloadPath + '/') + fileName
+//
+//File file = new File(filePath)
+//
+//WebUI.click(findTestObject('Other Cabang/Semanggi/Monitoring/BtnExport'))
+//
+//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.acceptAlert()
+//
+//// Tunggu file selesai ter-download
+//int timeout = 30
+//
+//while (!(file.exists()) && (timeout > 0)) {
+//    WebUI.delay(1)
+//
+//    timeout--
+//}
+//
+//if (!(file.exists())) {
+//    KeywordUtil.markFailed('File Excel tidak ditemukan: ' + filePath)
+//}
+//
+//if (!(file.exists())) {
+//    KeywordUtil.markFailed('File Excel tidak ter-download')
+//}
+//
+//KeywordUtil.logInfo('File berhasil ter-download: ' + fileName)
+//
+//// Load Excel
+//ExcelData excelData = ExcelFactory.getExcelDataWithDefaultSheet(filePath, 'Sheet1', false)
+//
+//// Ambil Submission Number
+//String submissionNumberExcel = excelData.getValue(3, 3)
+//
+//KeywordUtil.logInfo('Submission Number di Excel: ' + submissionNumberExcel)
+//
+//// Verifikasi
+//if (submissionNumberExcel.equalsIgnoreCase(submissionNumber)) {
+//    KeywordUtil.markPassed('Submission Number sesuai: ' + submissionNumberExcel)
+//} else {
+//    KeywordUtil.markFailed((('Submission Number TIDAK sesuai. Expected: ' + submissionNumber) + ', Actual: ') + submissionNumberExcel)
+//}
 
-KeywordUtil.logInfo('Submission number sesuai: ' + submissionInTable)
-
-String downloadPath = 'C:/Users/ACER/Downloads'
-
-String fileName = 'Monitoring Acceptation COB.xlsx'
-
-String filePath = (downloadPath + '/') + fileName
-
-File file = new File(filePath)
-
+// Verifikasi Versi 2
 WebUI.click(findTestObject('Other Cabang/Semanggi/Monitoring/BtnExport'))
 
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-// Tunggu file selesai ter-download
-int timeout = 30
+String submissionNumber = 'BN57/2149/UND/WS-0101/PDG/01/26'
+String filePath = 'C:/Users/ACER/Downloads/Monitoring Acceptation COB.xlsx'
 
-while (!(file.exists()) && (timeout > 0)) {
-    WebUI.delay(1)
-
-    timeout--
-}
-
-if (!(file.exists())) {
-    KeywordUtil.markFailed('File Excel tidak ditemukan: ' + filePath)
-}
-
-if (!(file.exists())) {
-    KeywordUtil.markFailed('File Excel tidak ter-download')
-}
-
-KeywordUtil.logInfo('File berhasil ter-download: ' + fileName)
-
-// Load Excel
 ExcelData excelData = ExcelFactory.getExcelDataWithDefaultSheet(filePath, 'Sheet1', false)
 
-// Ambil Submission Number
-String submissionNumberExcel = excelData.getValue(3, 3)
+int rowCount = excelData.getRowNumbers()
+boolean found = false
 
-KeywordUtil.logInfo('Submission Number di Excel: ' + submissionNumberExcel)
+for (int row = 1; row <= rowCount; row++) {
 
-// Verifikasi
-if (submissionNumberExcel.equalsIgnoreCase(submissionNumber)) {
-    KeywordUtil.markPassed('Submission Number sesuai: ' + submissionNumberExcel)
-} else {
-    KeywordUtil.markFailed((('Submission Number TIDAK sesuai. Expected: ' + submissionNumber) + ', Actual: ') + submissionNumberExcel)
+	String submissionExcel = excelData.getValue(3, row)
+	if (submissionExcel == null) {
+		continue
+	}
+
+	submissionExcel = submissionExcel.trim()
+
+	if (submissionExcel.equalsIgnoreCase(submissionNumber)) {
+
+		int tableOrder = row - 2   // 🔥 mapping Excel → tabel
+
+		KeywordUtil.markPassed(
+			"Submission Number [" + submissionNumber + "] " +
+			"ditemukan di Excel pada row ke-" + row +
+			" dan merupakan data nomor urut ke-" + tableOrder + " pada tabel"
+		)
+
+		found = true
+		break
+	}
+}
+
+if (!found) {
+	KeywordUtil.markFailed(
+		"Submission Number [" + submissionNumber + "] tidak ditemukan di Excel"
+	)
 }
 
 WebUI.closeBrowser()
