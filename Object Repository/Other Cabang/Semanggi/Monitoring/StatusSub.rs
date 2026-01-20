@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>StatusSub</name>
+   <tag></tag>
+   <elementGuidId>19f612b6-988f-479f-92c6-69dd29fbdbda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id='selectModelCOBSubmissionListPageStatus']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@id='selectModelCOBSubmissionListPageStatus']</value>
+      <webElementGuid>62300c91-cad6-412c-9af0-73db4c1eb7fb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

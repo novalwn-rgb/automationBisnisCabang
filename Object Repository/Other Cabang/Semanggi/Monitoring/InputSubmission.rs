@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputSubmission</name>
+   <tag></tag>
+   <elementGuidId>3e1a0b01-9f1f-42de-8d8a-6876e3898d2c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='textModelCOBSubmissionListPageSubmissionNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='textModelCOBSubmissionListPageSubmissionNumber']</value>
+      <webElementGuid>69a0d90a-67f1-4b8f-86de-1f8bc234880b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

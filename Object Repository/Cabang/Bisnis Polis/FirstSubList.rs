@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/app-root/app-home/div/main/app-cobpolicylist/div/div/div/div/div/table/tbody/tr[1]/td[2]</value>
-      <webElementGuid>12bb32bc-283f-43b0-b158-19a3b4da7fb8</webElementGuid>
+      <webElementGuid>ab593514-40e0-47b0-b95c-fae3c59b8b00</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

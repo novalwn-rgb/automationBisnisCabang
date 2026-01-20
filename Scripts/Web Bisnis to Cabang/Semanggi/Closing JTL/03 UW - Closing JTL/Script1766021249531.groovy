@@ -68,14 +68,14 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-// Case Error
-//WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
-//
-//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
-//
-//WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
-//
-//WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
-//
+		// Case Error
+		//WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail1'))
+		//
+		//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Nila/SecSubjectivity'), 0)
+		//
+		//WebUI.scrollToElement(findTestObject('Underwriting/Approve JTL/SecFasterDecision1'), 0)
+		//
+		//WebUI.scrollToElement(findTestObject('Putusan/SecDok Putusan'), 0)
+		//
 WebUI.closeBrowser()
 

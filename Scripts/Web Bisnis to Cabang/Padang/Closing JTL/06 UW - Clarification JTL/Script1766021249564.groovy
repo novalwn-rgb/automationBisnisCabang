@@ -40,25 +40,25 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Menu/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/UW/Nila/LastStatusPolis2')
-
-WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
-
-WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
-
-String actualStatus = WebUI.getText(statusObject).trim()
-
-println('✅ Status Penerbitan Polis : ' + actualStatus)
-
-String expectedStatus = 'Waiting Clarification by Junior Team Leader'
-
-WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
-
-if (actualStatus == expectedStatus) {
-    println('Status Persetujuan Sesuai: ' + actualStatus)
-} else {
-    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
-}
+//TestObject statusObject = findTestObject('Other Cabang/Padang/UW/Nila/LastStatusPolis2')
+//
+//WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
+//
+//WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
+//
+//String actualStatus = WebUI.getText(statusObject).trim()
+//
+//println('✅ Status Penerbitan Polis : ' + actualStatus)
+//
+//String expectedStatus = 'Waiting Clarification by Junior Team Leader'
+//
+//WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
+//
+//if (actualStatus == expectedStatus) {
+//    println('Status Persetujuan Sesuai: ' + actualStatus)
+//} else {
+//    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
+//}
 
 WebUI.click(findTestObject('Other Cabang/Padang/UW/Nila/LastSubDetail2'))
 

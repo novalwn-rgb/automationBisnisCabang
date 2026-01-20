@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Penerbitan Polis Generate PDF - RM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a5f1666-a889-4f65-8cae-463c5de064ef</testCaseGuid>
+</TestCaseEntity>

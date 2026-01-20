@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>InputInsured</name>
+   <tag></tag>
+   <elementGuidId>45f3cdfd-6c51-4c97-a15d-37451c0c0e57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='textModelCOBSubmissionListPageInsuredName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='textModelCOBSubmissionListPageInsuredName']</value>
+      <webElementGuid>1325c086-e800-413d-af8c-c0d22099d55a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

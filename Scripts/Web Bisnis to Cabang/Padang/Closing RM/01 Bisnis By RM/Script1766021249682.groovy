@@ -77,7 +77,7 @@ def dropdownObject3 = findTestObject('BusinessRM/StatusPenutupan')
 
 WebUI.selectOptionByLabel(dropdownObject3, 'New', false)
 
-WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'NonCaptive')
+WebUI.setText(findTestObject('BusinessRM/Tertanggung'), 'NonCaptive - Direct')
 
 WebUI.click(findTestObject('BusinessRM/lewatiPeriode'))
 
@@ -121,15 +121,15 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-//Case error
-//WebUI.click(findTestObject('BusinessRM/FirstSubList'))
-//
-//WebUI.click(findTestObject('BusinessRM/buttonNext'))
-//
-//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.acceptAlert()
-//
+		//Case error
+		//WebUI.click(findTestObject('BusinessRM/FirstSubList'))
+		//
+		//WebUI.click(findTestObject('BusinessRM/buttonNext'))
+		//
+		//WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
+		//
+		//WebUI.acceptAlert()
+		//
 WebUI.click(findTestObject('BusinessRM/tambahDok'))
 
 WebUI.setText(findTestObject('BusinessRM/namaDok'), 'Dokumen Bisnis Sample 1')
@@ -146,10 +146,10 @@ WebUI.acceptAlert()
 WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
-// Case Error 2
-//WebUI.click(findTestObject('BusinessRM/FirstSubList'))
-//
-//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Bisnis/Sec Akseptasi'), 0)
+			// Case Error 2
+			//WebUI.click(findTestObject('BusinessRM/FirstSubList'))
+			//
+			//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/Bisnis/Sec Akseptasi'), 0)
 
 WebUI.closeBrowser()
 

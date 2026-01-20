@@ -19,6 +19,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/app-root/app-home/div/main/app-productclassofbusinessoperationlist/div/div/div/table/tbody/tr[2]/td[2]</value>
-      <webElementGuid>43fc8710-aadc-414c-a0e8-56edc25ab9d1</webElementGuid>
+      <webElementGuid>539fbb6c-c4ee-4db3-872e-94d42741e605</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

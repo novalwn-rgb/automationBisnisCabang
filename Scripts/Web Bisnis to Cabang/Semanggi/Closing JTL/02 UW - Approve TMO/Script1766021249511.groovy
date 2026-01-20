@@ -218,16 +218,16 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.acceptAlert()
 
-// Case Error
-//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown FilterStatusPengajuan'))
-//
-//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih StatusPengajuan'))
-//
-//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Btn CariFilter'))
-//
-//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/LastSubTMOFilter'))
-//
-//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecAksep Filter'), 0)
-//
+		// Case Error
+		//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Dropdown FilterStatusPengajuan'))
+		//
+		//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Pilih StatusPengajuan'))
+		//
+		//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/Btn CariFilter'))
+		//
+		//WebUI.click(findTestObject('Other Cabang/Padang/UW/Tedi/LastSubTMOFilter'))
+		//
+		//WebUI.scrollToElement(findTestObject('Other Cabang/Padang/UW/Tedi/SecAksep Filter'), 0)
+		//
 WebUI.closeBrowser()
 

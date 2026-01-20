@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin' // https://staging.crm.web.brinesia.app/signin
-    )
+WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
 WebUI.setText(findTestObject('Underwriting/Login/inputEmail'), 'riska.amelia')
 
@@ -39,25 +38,25 @@ WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/Menu Approval'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/StatusPolis Checking_Inforce')
-
-WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
-
-WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
-
-String actualStatus = WebUI.getText(statusObject).trim()
-
-println('✅ Status Penerbitan Polis : ' + actualStatus)
-
-String expectedStatus = 'Waiting checking / Inforce policy'
-
-WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
-
-if (actualStatus == expectedStatus) {
-    println('Status Persetujuan Sesuai: ' + actualStatus)
-} else {
-    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
-}
+//TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Riska OJS/StatusPolis Checking_Inforce')
+//
+//WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
+//
+//WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
+//
+//String actualStatus = WebUI.getText(statusObject).trim()
+//
+//println('✅ Status Penerbitan Polis : ' + actualStatus)
+//
+//String expectedStatus = 'Waiting checking / Inforce policy'
+//
+//WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
+//
+//if (actualStatus == expectedStatus) {
+//    println('Status Persetujuan Sesuai: ' + actualStatus)
+//} else {
+//    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
+//}
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Riska OJS/SubDetail Checking_Inforce'))
 

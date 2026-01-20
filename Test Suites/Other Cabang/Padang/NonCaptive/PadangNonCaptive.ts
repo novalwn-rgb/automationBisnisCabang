@@ -12,84 +12,84 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>43d296b6-d9f7-416d-9a20-61dcc6c8ad62</testSuiteGuid>
    <testCaseLink>
-      <guid>72f78680-fe8f-461f-9d98-b045a157dcd9</guid>
+      <guid>6b05b4c3-7a79-49bb-aa70-9437191b9154</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/01 Bisnis By RM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b96a946-bd03-4c72-a2b8-8939fe5de18a</guid>
+      <guid>4182568c-bf3f-4d97-a91e-06d82e48cb90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/02 UW - Approve TMO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e11fed8b-76ca-441c-8ec5-633cefde058b</guid>
+      <guid>4ab6b4e0-ef0c-4788-b646-acf754593063</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/03 UW - Approve JTL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a1b968dd-800a-4279-bb3e-2248e7075aa5</guid>
+      <guid>87cfaefc-3be0-4206-ab37-dd65155bac4c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/04 Closing RM Bisnis</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>886d65ed-6359-496a-8a2d-4bff47e15a48</guid>
+      <guid>8dbfe1ed-6df9-4fc7-bd84-dc030b90c7f1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/05 Disposition OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>db57fbe9-3a8a-4e6b-a64d-a5b48e656f7b</guid>
+      <guid>c1319051-4b55-428c-aa16-2566f8487a0c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/06 Wait Issue Policy By Windi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>019cf877-049b-4edc-a910-a841c90988fc</guid>
+      <guid>2639397d-8235-49e3-b492-d8ed9f4a29fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/07 Clarification RM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>48a2529f-0e01-4f20-8e25-50ea3dc6ab43</guid>
+      <guid>052c49e9-7c78-44e1-84af-8fae397be4c3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/08 Wait Issue Policy After Clarification RM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a67d77d1-6dc1-442d-b801-1179a20e7774</guid>
+      <guid>9b253bcd-921e-4ede-afae-690346a09e6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/09 Waiting checking_Inforce policy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8bb439b0-d9d7-4041-8b0b-a0fa87b738a4</guid>
+      <guid>229925b6-25be-4cc5-8877-882b27aaf657</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/10 Policy Inforced by OJS</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>29fe53fc-a8e4-4653-9103-bbdb4a245d87</guid>
+      <guid>11896ada-329c-4b37-bb18-e5fb71120436</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/11 Policy Issued Cabang</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>15227b6c-478b-479c-bbcf-bce4dafbc4d0</guid>
+      <guid>57bac0b0-c471-4c6f-9865-2bdbd2f999b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Bisnis to Cabang/Padang/Closing RM/12 Penerbitan Polis Generate PDF</testCaseId>

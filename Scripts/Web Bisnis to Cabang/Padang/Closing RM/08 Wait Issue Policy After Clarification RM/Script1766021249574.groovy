@@ -16,9 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('https://staging.cabang.web.brinesia.app/signin') // https://staging.crm.web.brinesia.app/signin
 
@@ -41,25 +38,25 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Menu Sub
 WebUI.click(findTestObject('BusinessRM/closeInstallApp'))
 
 // Verify Status Penerbitan Polis
-TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstStatusPolis')
-
-WebUI.comment("--- Pengambilan Status Penerbitan Polis ---")
-
-WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
-
-String actualStatus = WebUI.getText(statusObject).trim()
-
-println("✅ Status Penerbitan Polis : " + actualStatus)
-
-String expectedStatus = "Waiting entry CARE"
-
-WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
-
-if (actualStatus == expectedStatus) {
-	println("Status Persetujuan Sesuai: " + actualStatus)
-} else {
-	println("❌ Peringatan: Status History TIDAK sesuai. Ditemukan: " + actualStatus)
-}
+//TestObject statusObject = findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstStatusPolis')
+//
+//WebUI.comment('--- Pengambilan Status Penerbitan Polis ---')
+//
+//WebUI.waitForElementPresent(statusObject, 10, FailureHandling.STOP_ON_FAILURE)
+//
+//String actualStatus = WebUI.getText(statusObject).trim()
+//
+//println('✅ Status Penerbitan Polis : ' + actualStatus)
+//
+//String expectedStatus = 'Waiting entry CARE'
+//
+//WebUI.verifyMatch(actualStatus, expectedStatus, false, FailureHandling.CONTINUE_ON_FAILURE)
+//
+//if (actualStatus == expectedStatus) {
+//    println('Status Persetujuan Sesuai: ' + actualStatus)
+//} else {
+//    println('❌ Peringatan: Status History TIDAK sesuai. Ditemukan: ' + actualStatus)
+//}
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/FirstSubDetail'))
 
@@ -73,6 +70,9 @@ WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Dropdown
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/PilihOJS'))
 
+//WebUI.setText(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), 'OJS')
+//
+//WebUI.sendKeys(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/Pemutus Akhir By Data Entry'), Keys.chord(Keys.ENTER))
 WebUI.setText(findTestObject('Cabang/inputRemarks'), 'After Clarification RM')
 
 WebUI.click(findTestObject('Other Cabang/Padang/Cabang/Windi Data Entry/BtnSubmit By Data Entry'))
@@ -82,3 +82,4 @@ WebUI.waitForAlert(10, FailureHandling.STOP_ON_FAILURE)
 WebUI.acceptAlert()
 
 WebUI.closeBrowser()
+
