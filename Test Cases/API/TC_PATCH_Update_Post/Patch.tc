@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Monitoring</name>
+   <name>Patch</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>99a76b13-0189-4999-9385-80d89e72019f</testCaseGuid>
+   <testCaseGuid>fedad249-7cb2-41ec-9c02-ef513db3d627</testCaseGuid>
 </TestCaseEntity>

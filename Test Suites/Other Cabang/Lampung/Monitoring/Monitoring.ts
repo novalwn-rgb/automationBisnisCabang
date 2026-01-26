@@ -11,11 +11,4 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>dedb2148-32d8-4e83-ac7c-346949aa0164</testSuiteGuid>
-   <testCaseLink>
-      <guid>88f8b7a4-71ad-4dc9-a86b-b247008ff0df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Bisnis to Cabang/Lampung/Menu Monitoring/Monitoring</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>

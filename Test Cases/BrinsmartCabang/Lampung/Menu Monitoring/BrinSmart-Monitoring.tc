@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Monitoring</name>
+   <name>BrinSmart-Monitoring</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e7f6bf5a-c15f-4925-bc7d-4bff7780c770</testCaseGuid>
+   <testCaseGuid>27d74d2b-7f1c-4549-b7b3-d54fb7bf0ae3</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Monitoring</name>
+   <name>TestAPI</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>99a76b13-0189-4999-9385-80d89e72019f</testCaseGuid>
+   <testCaseGuid>8aef0698-dd03-44c3-847c-e15383344009</testCaseGuid>
 </TestCaseEntity>
